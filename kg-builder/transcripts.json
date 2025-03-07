@@ -1,0 +1,4798 @@
+[
+  {
+    "call_id": "C001",
+    "messages": [
+      {
+        "timestamp": "2024-05-15T08:30:00Z",
+        "sender": "customer",
+        "customer_id": "B001",
+        "message": "Hi, we're experiencing some issues with our internet connectivity. It's been very slow since this morning."
+      },
+      {
+        "timestamp": "2024-05-15T08:31:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Hello! I'm sorry to hear that. Let me check your connection status. Can I have your account number, please?"
+      },
+      {
+        "timestamp": "2024-05-15T08:32:00Z",
+        "sender": "customer",
+        "customer_id": "B001",
+        "message": "Sure, it's 123456."
+      },
+      {
+        "timestamp": "2024-05-15T08:34:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Thank you. It looks like there's a temporary issue in your area. Our technicians are working on it. In the meantime, would you be interested in upgrading to a higher-speed plan? We have a special offer for business customers."
+      },
+      {
+        "timestamp": "2024-05-15T08:35:00Z",
+        "sender": "customer",
+        "customer_id": "B001",
+        "message": "I'd like to know more about the offer. What are the benefits?"
+      },
+      {
+        "timestamp": "2024-05-15T08:36:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "With the upgrade, you'll get double the speed and priority customer support, all for just $20 more per month."
+      },
+      {
+        "timestamp": "2024-05-15T08:37:00Z",
+        "sender": "customer",
+        "customer_id": "B001",
+        "message": "That sounds good. Let's proceed with the upgrade."
+      },
+      {
+        "timestamp": "2024-05-15T08:38:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Great! I've processed the upgrade. Your new plan will be effective immediately. Thank you for choosing us."
+      }
+    ]
+  },
+  {
+    "call_id": "C002",
+    "messages": [
+      {
+        "timestamp": "2024-05-15T09:00:00Z",
+        "sender": "customer",
+        "customer_id": "B002",
+        "message": "Hello, we're planning to expand our office and will need more phone lines. Can you help with that?"
+      },
+      {
+        "timestamp": "2024-05-15T09:01:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Hi! Yes, we can assist with that. How many additional lines are you looking to add?"
+      },
+      {
+        "timestamp": "2024-05-15T09:02:00Z",
+        "sender": "customer",
+        "customer_id": "B002",
+        "message": "We need 10 more lines. Also, can you tell me about any bundled packages for businesses?"
+      },
+      {
+        "timestamp": "2024-05-15T09:03:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Sure! We have a business bundle that includes phone lines, high-speed internet, and cloud services at a discounted rate. Would you like to know the details?"
+      },
+      {
+        "timestamp": "2024-05-15T09:04:00Z",
+        "sender": "customer",
+        "customer_id": "B002",
+        "message": "Yes, please provide the details."
+      },
+      {
+        "timestamp": "2024-05-15T09:05:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Our business bundle includes 20 phone lines, 500 Mbps internet speed, and 1 TB of cloud storage for $200 per month. It also comes with 24/7 priority support."
+      },
+      {
+        "timestamp": "2024-05-15T09:06:00Z",
+        "sender": "customer",
+        "customer_id": "B002",
+        "message": "That seems like a good deal. We would like to go ahead with the business bundle."
+      },
+      {
+        "timestamp": "2024-05-15T09:07:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Excellent choice! I'll process the order for you. Your new services will be active by the end of the day. Thank you for choosing our services."
+      }
+    ]
+  },
+  {
+    "call_id": "C003",
+    "messages": [
+      {
+        "timestamp": "2024-05-15T10:00:00Z",
+        "sender": "customer",
+        "customer_id": "B003",
+        "message": "Hi, our VoIP phones are not working properly. Calls are dropping frequently."
+      },
+      {
+        "timestamp": "2024-05-15T10:01:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Hello! I'm sorry to hear that. Let me run a diagnostic on your VoIP lines. Can you provide your account number?"
+      },
+      {
+        "timestamp": "2024-05-15T10:02:00Z",
+        "sender": "customer",
+        "customer_id": "B003",
+        "message": "Yes, it's 654321."
+      },
+      {
+        "timestamp": "2024-05-15T10:05:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Thank you. I see that there is an issue with the VoIP configuration. I'll need to reset the settings. This will take a few minutes."
+      },
+      {
+        "timestamp": "2024-05-15T10:10:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "I've reset the configuration. Can you please check if the calls are stable now?"
+      },
+      {
+        "timestamp": "2024-05-15T10:12:00Z",
+        "sender": "customer",
+        "customer_id": "B003",
+        "message": "Yes, the calls seem to be stable now. Thank you for your help."
+      },
+      {
+        "timestamp": "2024-05-15T10:13:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "You're welcome! If you encounter any more issues, feel free to contact us. Have a great day!"
+      }
+    ]
+  },
+  {
+    "call_id": "C004",
+    "messages": [
+      {
+        "timestamp": "2024-05-15T11:00:00Z",
+        "sender": "customer",
+        "customer_id": "B004",
+        "message": "Hello, I'm calling to discuss our bill. It seems much higher than usual this month."
+      },
+      {
+        "timestamp": "2024-05-15T11:01:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Hi there! I'm sorry to hear about the billing issue. Can you provide your account number so I can take a look?"
+      },
+      {
+        "timestamp": "2024-05-15T11:02:00Z",
+        "sender": "customer",
+        "customer_id": "B004",
+        "message": "Sure, it's 789012."
+      },
+      {
+        "timestamp": "2024-05-15T11:05:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Thanks. I see that there was an overcharge for additional data usage. I'll adjust the bill and apply a credit to your account."
+      },
+      {
+        "timestamp": "2024-05-15T11:06:00Z",
+        "sender": "customer",
+        "customer_id": "B004",
+        "message": "I appreciate that. Can you also check if we are on the best plan for our needs? We might need more data."
+      },
+      {
+        "timestamp": "2024-05-15T11:08:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Certainly. Based on your usage, I recommend our Business Plus plan which offers more data and lower rates for overage. Would you like to switch to this plan?"
+      },
+      {
+        "timestamp": "2024-05-15T11:09:00Z",
+        "sender": "customer",
+        "customer_id": "B004",
+        "message": "Yes, let's switch to the Business Plus plan. Thank you for your help."
+      },
+      {
+        "timestamp": "2024-05-15T11:10:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "You're welcome! I've switched you to the new plan. If you have any further questions, feel free to contact us."
+      }
+    ]
+  },
+  {
+    "call_id": "C005",
+    "messages": [
+      {
+        "timestamp": "2024-05-15T12:00:00Z",
+        "sender": "customer",
+        "customer_id": "B005",
+        "message": "I'm very frustrated with your service. Our internet has been down for two days and nobody seems to be able to fix it!"
+      },
+      {
+        "timestamp": "2024-05-15T12:01:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "I'm very sorry to hear that you're experiencing this issue. Let me look into this right away. Can you provide your account number?"
+      },
+      {
+        "timestamp": "2024-05-15T12:02:00Z",
+        "sender": "customer",
+        "customer_id": "B005",
+        "message": "It's 345678. But I've given this multiple times already with no resolution!"
+      },
+      {
+        "timestamp": "2024-05-15T12:05:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "I understand your frustration. It appears that there is a hardware failure at your location. I will dispatch a technician to your site immediately to replace the faulty equipment."
+      },
+      {
+        "timestamp": "2024-05-15T12:07:00Z",
+        "sender": "customer",
+        "customer_id": "B005",
+        "message": "This should have been done two days ago! We are losing business because of this."
+      },
+      {
+        "timestamp": "2024-05-15T12:08:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "I sincerely apologize for the delay. As a token of our apology, we will credit your account for this month's bill and provide a free upgrade to a higher-speed plan for the next three months."
+      },
+      {
+        "timestamp": "2024-05-15T12:10:00Z",
+        "sender": "customer",
+        "customer_id": "B005",
+        "message": "Alright, I expect the technician to arrive soon and fix this issue. Thank you for the credit."
+      },
+      {
+        "timestamp": "2024-05-15T12:11:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "You're welcome. The technician will be there within the next hour. We appreciate your patience and understanding."
+      }
+    ]
+  },
+  {
+    "call_id": "C006",
+    "messages": [
+      {
+        "timestamp": "2024-05-15T13:00:00Z",
+        "sender": "customer",
+        "customer_id": "B006",
+        "message": "Hi, we're experiencing intermittent internet outages that are affecting our business operations. It's been happening for a few days now."
+      },
+      {
+        "timestamp": "2024-05-15T13:01:00Z",
+        "sender": "representative",
+        "representative_id": "R006",
+        "message": "Hello! I'm sorry to hear that. Let's see if we can get to the bottom of this. Can you please provide your account number?"
+      },
+      {
+        "timestamp": "2024-05-15T13:02:00Z",
+        "sender": "customer",
+        "customer_id": "B006",
+        "message": "Sure, it's 987654."
+      },
+      {
+        "timestamp": "2024-05-15T13:05:00Z",
+        "sender": "representative",
+        "representative_id": "R006",
+        "message": "Thank you. I'm running a diagnostic on your connection now. It might take a few minutes."
+      },
+      {
+        "timestamp": "2024-05-15T13:10:00Z",
+        "sender": "representative",
+        "representative_id": "R006",
+        "message": "It appears that your connection is experiencing frequent packet loss. This could be due to several reasons. Have you noticed if the issue occurs at specific times of the day?"
+      },
+      {
+        "timestamp": "2024-05-15T13:11:00Z",
+        "sender": "customer",
+        "customer_id": "B006",
+        "message": "Not really, it seems pretty random. Sometimes it's fine, and then it suddenly drops."
+      },
+      {
+        "timestamp": "2024-05-15T13:12:00Z",
+        "sender": "representative",
+        "representative_id": "R006",
+        "message": "I see. Let's try a few things. First, could you restart your router and modem?"
+      },
+      {
+        "timestamp": "2024-05-15T13:13:00Z",
+        "sender": "customer",
+        "customer_id": "B006",
+        "message": "I've done that multiple times already. It doesn't seem to help."
+      },
+      {
+        "timestamp": "2024-05-15T13:15:00Z",
+        "sender": "representative",
+        "representative_id": "R006",
+        "message": "Understood. I'll check for any firmware updates for your router. Meanwhile, could you please confirm if all the cables are securely connected?"
+      },
+      {
+        "timestamp": "2024-05-15T13:16:00Z",
+        "sender": "customer",
+        "customer_id": "B006",
+        "message": "Yes, all cables are secure. We even replaced them just to be sure."
+      },
+      {
+        "timestamp": "2024-05-15T13:20:00Z",
+        "sender": "representative",
+        "representative_id": "R006",
+        "message": "Thank you for checking. I'm updating the firmware now. This will take a few moments."
+      },
+      {
+        "timestamp": "2024-05-15T13:25:00Z",
+        "sender": "representative",
+        "representative_id": "R006",
+        "message": "The firmware is now updated. Let's monitor the connection for a bit to see if there's any improvement."
+      },
+      {
+        "timestamp": "2024-05-15T13:35:00Z",
+        "sender": "customer",
+        "customer_id": "B006",
+        "message": "The connection just dropped again. This is getting really frustrating."
+      },
+      {
+        "timestamp": "2024-05-15T13:36:00Z",
+        "sender": "representative",
+        "representative_id": "R006",
+        "message": "I'm really sorry about this. Let's check for any external interference. Are there any new electronic devices near the router?"
+      },
+      {
+        "timestamp": "2024-05-15T13:37:00Z",
+        "sender": "customer",
+        "customer_id": "B006",
+        "message": "No, nothing new. Everything has been the same as before."
+      },
+      {
+        "timestamp": "2024-05-15T13:40:00Z",
+        "sender": "representative",
+        "representative_id": "R006",
+        "message": "Alright. I'll perform a line test to check for any issues with the external lines."
+      },
+      {
+        "timestamp": "2024-05-15T13:45:00Z",
+        "sender": "representative",
+        "representative_id": "R006",
+        "message": "The line test shows some irregularities. It looks like there might be an issue with the wiring outside your premises. We'll need to send a technician to investigate further."
+      },
+      {
+        "timestamp": "2024-05-15T13:46:00Z",
+        "sender": "customer",
+        "customer_id": "B006",
+        "message": "Great, more waiting. This is really impacting our business. And considering the price we pay for this service, it's unacceptable."
+      },
+      {
+        "timestamp": "2024-05-15T13:48:00Z",
+        "sender": "representative",
+        "representative_id": "R006",
+        "message": "I understand your frustration, and I apologize for the inconvenience. I'll prioritize your case and ensure the technician arrives as soon as possible. We'll also credit your account for this month's service and offer a discount for the next three months."
+      },
+      {
+        "timestamp": "2024-05-15T13:50:00Z",
+        "sender": "customer",
+        "customer_id": "B006",
+        "message": "Thank you. Please make sure the technician comes today. We can't afford any more downtime."
+      },
+      {
+        "timestamp": "2024-05-15T13:51:00Z",
+        "sender": "representative",
+        "representative_id": "R006",
+        "message": "I've scheduled the technician for today. They should be there within the next two hours. We appreciate your patience and will do our best to resolve this issue promptly."
+      },
+      {
+        "timestamp": "2024-05-15T13:52:00Z",
+        "sender": "customer",
+        "customer_id": "B006",
+        "message": "Alright. I'll be waiting for the technician. Thank you for your help."
+      },
+      {
+        "timestamp": "2024-05-15T13:53:00Z",
+        "sender": "representative",
+        "representative_id": "R006",
+        "message": "You're welcome. Please let us know if there's anything else we can assist with. Have a good day."
+      }
+    ]
+  },
+  {
+    "call_id": "C007",
+    "messages": [
+      {
+        "timestamp": "2024-05-15T09:00:00Z",
+        "sender": "customer",
+        "customer_id": "B007",
+        "message": "Hi, I'm interested in upgrading our internet speed. What options do we have?"
+      },
+      {
+        "timestamp": "2024-05-15T09:01:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Hello! We have several options available. May I have your account number to check your current plan?"
+      },
+      {
+        "timestamp": "2024-05-15T09:02:00Z",
+        "sender": "customer",
+        "customer_id": "B007",
+        "message": "Sure, it's 223344."
+      },
+      {
+        "timestamp": "2024-05-15T09:03:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Thank you. You can upgrade to our Premium plan which offers 1 Gbps speed for an additional $50 per month. Would you like to proceed with this upgrade?"
+      },
+      {
+        "timestamp": "2024-05-15T09:04:00Z",
+        "sender": "customer",
+        "customer_id": "B007",
+        "message": "Yes, that sounds good. Please go ahead."
+      },
+      {
+        "timestamp": "2024-05-15T09:05:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Great! Your plan has been upgraded. You should experience the increased speed within the next few minutes. Thank you for choosing us!"
+      }
+    ]
+  },
+  {
+    "call_id": "C008",
+    "messages": [
+      {
+        "timestamp": "2024-05-15T10:00:00Z",
+        "sender": "customer",
+        "customer_id": "B008",
+        "message": "Hello, we're having trouble with our phone lines. Some calls are not coming through."
+      },
+      {
+        "timestamp": "2024-05-15T10:01:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Hi! I'm sorry to hear that. Can I have your account number to check the status?"
+      },
+      {
+        "timestamp": "2024-05-15T10:02:00Z",
+        "sender": "customer",
+        "customer_id": "B008",
+        "message": "It's 556677."
+      },
+      {
+        "timestamp": "2024-05-15T10:05:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Thanks. It seems there is a configuration issue. I'll reset the settings now. Please hold for a moment."
+      },
+      {
+        "timestamp": "2024-05-15T10:10:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "The settings have been reset. Please test the phone lines now."
+      },
+      {
+        "timestamp": "2024-05-15T10:12:00Z",
+        "sender": "customer",
+        "customer_id": "B008",
+        "message": "They seem to be working fine now. Thank you for your help!"
+      },
+      {
+        "timestamp": "2024-05-15T10:13:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "You're welcome! Have a great day."
+      }
+    ]
+  },
+  {
+    "call_id": "C009",
+    "messages": [
+      {
+        "timestamp": "2024-05-15T11:00:00Z",
+        "sender": "customer",
+        "customer_id": "B009",
+        "message": "Hi, we need to add another phone line to our account. How do we do that?"
+      },
+      {
+        "timestamp": "2024-05-15T11:01:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Hello! I can assist with that. May I have your account number?"
+      },
+      {
+        "timestamp": "2024-05-15T11:02:00Z",
+        "sender": "customer",
+        "customer_id": "B009",
+        "message": "It's 112233."
+      },
+      {
+        "timestamp": "2024-05-15T11:05:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Thank you. I'll add the additional phone line to your account. It should be active within the next 30 minutes."
+      },
+      {
+        "timestamp": "2024-05-15T11:06:00Z",
+        "sender": "customer",
+        "customer_id": "B009",
+        "message": "Great, thank you!"
+      },
+      {
+        "timestamp": "2024-05-15T11:07:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "You're welcome! If you need anything else, feel free to reach out."
+      }
+    ]
+  },
+  {
+    "call_id": "C010",
+    "messages": [
+      {
+        "timestamp": "2024-05-15T12:00:00Z",
+        "sender": "customer",
+        "customer_id": "B010",
+        "message": "Hello, our monthly bill seems higher than usual. Can you help me understand why?"
+      },
+      {
+        "timestamp": "2024-05-15T12:01:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Hi! I'm sorry for the confusion. Can you provide your account number so I can review the bill?"
+      },
+      {
+        "timestamp": "2024-05-15T12:02:00Z",
+        "sender": "customer",
+        "customer_id": "B010",
+        "message": "Sure, it's 445566."
+      },
+      {
+        "timestamp": "2024-05-15T12:05:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Thank you. It looks like there were some additional charges for extra data usage. Let me apply a credit for the overage charges."
+      },
+      {
+        "timestamp": "2024-05-15T12:06:00Z",
+        "sender": "customer",
+        "customer_id": "B010",
+        "message": "I appreciate that. Could you also suggest a plan that might better suit our needs?"
+      },
+      {
+        "timestamp": "2024-05-15T12:08:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Certainly! Based on your usage, I recommend our Unlimited Business Plan. It offers unlimited data and better rates for a slightly higher monthly fee."
+      },
+      {
+        "timestamp": "2024-05-15T12:09:00Z",
+        "sender": "customer",
+        "customer_id": "B010",
+        "message": "That sounds good. Please switch us to that plan."
+      },
+      {
+        "timestamp": "2024-05-15T12:10:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Done! Your new plan is now active. Thank you for choosing us."
+      }
+    ]
+  },
+  {
+    "call_id": "C011",
+    "messages": [
+      {
+        "timestamp": "2024-05-15T13:00:00Z",
+        "sender": "customer",
+        "customer_id": "B011",
+        "message": "Hi, we're moving to a new office and need to transfer our services. How do we do that?"
+      },
+      {
+        "timestamp": "2024-05-15T13:01:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Hello! I can help with that. Can you provide your account number?"
+      },
+      {
+        "timestamp": "2024-05-15T13:02:00Z",
+        "sender": "customer",
+        "customer_id": "B011",
+        "message": "It's 667788."
+      },
+      {
+        "timestamp": "2024-05-15T13:05:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Thank you. I've scheduled the transfer of your services to your new office. The technician will visit on your moving day to set everything up."
+      },
+      {
+        "timestamp": "2024-05-15T13:06:00Z",
+        "sender": "customer",
+        "customer_id": "B011",
+        "message": "Perfect, thank you!"
+      },
+      {
+        "timestamp": "2024-05-15T13:07:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "You're welcome! Have a smooth move."
+      }
+    ]
+  },
+  {
+    "call_id": "C012",
+    "messages": [
+      {
+        "timestamp": "2024-05-15T14:00:00Z",
+        "sender": "customer",
+        "customer_id": "B012",
+        "message": "Hi, I need to reset the password for our account. Can you help me with that?"
+      },
+      {
+        "timestamp": "2024-05-15T14:01:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Hello! Sure, I can help with that. Can you please provide your account number?"
+      },
+      {
+        "timestamp": "2024-05-15T14:02:00Z",
+        "sender": "customer",
+        "customer_id": "B012",
+        "message": "It's 990011."
+      },
+      {
+        "timestamp": "2024-05-15T14:05:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Thank you. I've sent a password reset link to the email address on file. Please check your email and follow the instructions to reset your password."
+      },
+      {
+        "timestamp": "2024-05-15T14:06:00Z",
+        "sender": "customer",
+        "customer_id": "B012",
+        "message": "Got it. Thanks for your help!"
+      },
+      {
+        "timestamp": "2024-05-15T14:07:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "You're welcome! Have a great day."
+      }
+    ]
+  },
+  {
+    "call_id": "C013",
+    "messages": [
+      {
+        "timestamp": "2024-05-15T15:00:00Z",
+        "sender": "customer",
+        "customer_id": "B013",
+        "message": "Hello, we need to upgrade our cloud storage. What are the available options?"
+      },
+      {
+        "timestamp": "2024-05-15T15:01:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Hi! We have several options. Can I have your account number to check your current plan?"
+      },
+      {
+        "timestamp": "2024-05-15T15:02:00Z",
+        "sender": "customer",
+        "customer_id": "B013",
+        "message": "It's 223355."
+      },
+      {
+        "timestamp": "2024-05-15T15:05:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Thanks. You can upgrade to our Business Cloud Plus plan which offers 2 TB of storage for an additional $30 per month. Would you like to proceed?"
+      },
+      {
+        "timestamp": "2024-05-15T15:06:00Z",
+        "sender": "customer",
+        "customer_id": "B013",
+        "message": "Yes, that works. Please upgrade us."
+      },
+      {
+        "timestamp": "2024-05-15T15:07:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Your plan has been upgraded. The additional storage is now available. Thank you for choosing us!"
+      }
+    ]
+  },
+  {
+    "call_id": "C014",
+    "messages": [
+      {
+        "timestamp": "2024-05-15T16:00:00Z",
+        "sender": "customer",
+        "customer_id": "B014",
+        "message": "Hi, our fax service is not working. We can't send or receive any faxes."
+      },
+      {
+        "timestamp": "2024-05-15T16:01:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Hello! I'm sorry to hear that. Can you provide your account number so I can check the service status?"
+      },
+      {
+        "timestamp": "2024-05-15T16:02:00Z",
+        "sender": "customer",
+        "customer_id": "B014",
+        "message": "It's 334466."
+      },
+      {
+        "timestamp": "2024-05-15T16:05:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Thanks. It looks like there's a configuration issue. I'll reset the fax service settings. Please hold for a moment."
+      },
+      {
+        "timestamp": "2024-05-15T16:10:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "The settings have been reset. Please try sending a fax now."
+      },
+      {
+        "timestamp": "2024-05-15T16:12:00Z",
+        "sender": "customer",
+        "customer_id": "B014",
+        "message": "It's working now. Thank you for your assistance!"
+      },
+      {
+        "timestamp": "2024-05-15T16:13:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "You're welcome! Have a great day."
+      }
+    ]
+  },
+  {
+    "call_id": "C015",
+    "messages": [
+      {
+        "timestamp": "2024-05-15T17:00:00Z",
+        "sender": "customer",
+        "customer_id": "B015",
+        "message": "Hi, we experienced a service outage last week and it affected our business. Can we get compensation for the downtime?"
+      },
+      {
+        "timestamp": "2024-05-15T17:01:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "Hello, I'm sorry to hear about the outage. Can I have your account number to review the details?"
+      },
+      {
+        "timestamp": "2024-05-15T17:02:00Z",
+        "sender": "customer",
+        "customer_id": "B015",
+        "message": "Sure, it's 556677."
+      },
+      {
+        "timestamp": "2024-05-15T17:05:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "Thank you. I see the outage occurred due to maintenance work. I can offer a credit for the downtime on your next bill."
+      },
+      {
+        "timestamp": "2024-05-15T17:06:00Z",
+        "sender": "customer",
+        "customer_id": "B015",
+        "message": "That would be helpful. Thank you."
+      },
+      {
+        "timestamp": "2024-05-15T17:07:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "You're welcome. The credit will be applied to your next billing cycle. If you need further assistance, feel free to contact us."
+      }
+    ]
+  },
+  {
+    "call_id": "C016",
+    "messages": [
+      {
+        "timestamp": "2024-05-15T18:00:00Z",
+        "sender": "customer",
+        "customer_id": "B016",
+        "message": "Hi, we just received new VoIP phones and need help setting them up."
+      },
+      {
+        "timestamp": "2024-05-15T18:01:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Hello! I'd be happy to help. Can I have your account number to get started?"
+      },
+      {
+        "timestamp": "2024-05-15T18:02:00Z",
+        "sender": "customer",
+        "customer_id": "B016",
+        "message": "It's 778899."
+      },
+      {
+        "timestamp": "2024-05-15T18:05:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Thanks. Let's begin by connecting the phones to your network. Do you have them plugged into your router?"
+      },
+      {
+        "timestamp": "2024-05-15T18:06:00Z",
+        "sender": "customer",
+        "customer_id": "B016",
+        "message": "Yes, they're all connected."
+      },
+      {
+        "timestamp": "2024-05-15T18:07:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Great. Now, let's configure the phones. I'll guide you through the setup process."
+      },
+      {
+        "timestamp": "2024-05-15T18:15:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "The setup is complete. Please test the phones to ensure they're working properly."
+      },
+      {
+        "timestamp": "2024-05-15T18:17:00Z",
+        "sender": "customer",
+        "customer_id": "B016",
+        "message": "They're working fine now. Thanks for your assistance!"
+      },
+      {
+        "timestamp": "2024-05-15T18:18:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "You're welcome! If you need any more help, feel free to reach out."
+      }
+    ]
+  },
+  {
+    "call_id": "C017",
+    "messages": [
+      {
+        "timestamp": "2024-05-15T19:00:00Z",
+        "sender": "customer",
+        "customer_id": "B017",
+        "message": "Hi, we'd like to cancel our service. What is the process?"
+      },
+      {
+        "timestamp": "2024-05-15T19:01:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Hello, I'm sorry to hear that you want to cancel. Can you provide your account number so I can assist you with the process?"
+      },
+      {
+        "timestamp": "2024-05-15T19:02:00Z",
+        "sender": "customer",
+        "customer_id": "B017",
+        "message": "It's 112244."
+      },
+      {
+        "timestamp": "2024-05-15T19:05:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Thank you. I see your account details here. May I ask why you are choosing to cancel?"
+      },
+      {
+        "timestamp": "2024-05-15T19:06:00Z",
+        "sender": "customer",
+        "customer_id": "B017",
+        "message": "We've found a better offer with another provider."
+      },
+      {
+        "timestamp": "2024-05-15T19:07:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "I understand. I can process the cancellation for you. You'll receive a confirmation email shortly."
+      },
+      {
+        "timestamp": "2024-05-15T19:08:00Z",
+        "sender": "customer",
+        "customer_id": "B017",
+        "message": "Thank you for your help."
+      },
+      {
+        "timestamp": "2024-05-15T19:09:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "You're welcome. If you ever decide to return, we'll be here to assist you."
+      }
+    ]
+  },
+  {
+    "call_id": "C018",
+    "messages": [
+      {
+        "timestamp": "2024-05-15T20:00:00Z",
+        "sender": "customer",
+        "customer_id": "B018",
+        "message": "Hello, I noticed an incorrect charge on our bill this month. Can you help me understand what happened?"
+      },
+      {
+        "timestamp": "2024-05-15T20:01:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Hi, I'm sorry for the confusion. Can you provide your account number so I can look into this?"
+      },
+      {
+        "timestamp": "2024-05-15T20:02:00Z",
+        "sender": "customer",
+        "customer_id": "B018",
+        "message": "It's 556688."
+      },
+      {
+        "timestamp": "2024-05-15T20:05:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Thank you. I see the charge in question. It appears to be a mistake. I'll issue a refund for the incorrect amount."
+      },
+      {
+        "timestamp": "2024-05-15T20:06:00Z",
+        "sender": "customer",
+        "customer_id": "B018",
+        "message": "Thank you for resolving this so quickly."
+      },
+      {
+        "timestamp": "2024-05-15T20:07:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "You're welcome! If you have any other questions, feel free to reach out."
+      }
+    ]
+  },
+  {
+    "call_id": "C019",
+    "messages": [
+      {
+        "timestamp": "2024-05-15T21:00:00Z",
+        "sender": "customer",
+        "customer_id": "B019",
+        "message": "Hi, our contract is ending soon. Can you provide information on renewing it and any discounts available?"
+      },
+      {
+        "timestamp": "2024-05-15T21:01:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Hello! I'd be happy to assist. Can I have your account number to check your current contract?"
+      },
+      {
+        "timestamp": "2024-05-15T21:02:00Z",
+        "sender": "customer",
+        "customer_id": "B019",
+        "message": "It's 667799."
+      },
+      {
+        "timestamp": "2024-05-15T21:05:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Thank you. Your contract is ending in 30 days. We can offer a 10% discount on a new 2-year contract. Would you like to proceed with the renewal?"
+      },
+      {
+        "timestamp": "2024-05-15T21:06:00Z",
+        "sender": "customer",
+        "customer_id": "B019",
+        "message": "Yes, that sounds good. Please renew our contract with the discount."
+      },
+      {
+        "timestamp": "2024-05-15T21:07:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Done! Your contract has been renewed and the discount applied. Thank you for staying with us."
+      }
+    ]
+  },
+  {
+    "call_id": "C020",
+    "messages": [
+      {
+        "timestamp": "2024-05-15T22:00:00Z",
+        "sender": "customer",
+        "customer_id": "B020",
+        "message": "Hi, we noticed some unusual activity on our network. Can you help us with security?"
+      },
+      {
+        "timestamp": "2024-05-15T22:01:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "Hello! I'm sorry to hear that. Can you provide your account number so I can check the details?"
+      },
+      {
+        "timestamp": "2024-05-15T22:02:00Z",
+        "sender": "customer",
+        "customer_id": "B020",
+        "message": "It's 889900."
+      },
+      {
+        "timestamp": "2024-05-15T22:05:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "Thank you. I see some suspicious activity. I'll enhance your security settings and monitor the network for any breaches."
+      },
+      {
+        "timestamp": "2024-05-15T22:06:00Z",
+        "sender": "customer",
+        "customer_id": "B020",
+        "message": "Thank you. We need to ensure our data is secure."
+      },
+      {
+        "timestamp": "2024-05-15T22:07:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "I've applied additional security measures. We'll keep an eye on your network and alert you if we find anything unusual."
+      },
+      {
+        "timestamp": "2024-05-15T22:08:00Z",
+        "sender": "customer",
+        "customer_id": "B020",
+        "message": "Thanks for your help."
+      },
+      {
+        "timestamp": "2024-05-15T22:09:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "You're welcome! Have a secure day."
+      }
+    ]
+  },
+  {
+    "call_id": "C021",
+    "messages": [
+      {
+        "timestamp": "2024-05-15T23:00:00Z",
+        "sender": "customer",
+        "customer_id": "B021",
+        "message": "Hi, we need to temporarily suspend our service for the summer. How do we do that?"
+      },
+      {
+        "timestamp": "2024-05-15T23:01:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Hello! I can help with that. Can you provide your account number?"
+      },
+      {
+        "timestamp": "2024-05-15T23:02:00Z",
+        "sender": "customer",
+        "customer_id": "B021",
+        "message": "It's 334455."
+      },
+      {
+        "timestamp": "2024-05-15T23:05:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Thank you. I'll suspend your service from June to August. You won't be billed during this period."
+      },
+      {
+        "timestamp": "2024-05-15T23:06:00Z",
+        "sender": "customer",
+        "customer_id": "B021",
+        "message": "Great, thank you!"
+      },
+      {
+        "timestamp": "2024-05-15T23:07:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "You're welcome! Have a great summer."
+      }
+    ]
+  },
+  {
+    "call_id": "C022",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T00:00:00Z",
+        "sender": "customer",
+        "customer_id": "B022",
+        "message": "Hi, we need to set up services for multiple new locations. Can you assist with that?"
+      },
+      {
+        "timestamp": "2024-05-16T00:01:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Hello! I'd be happy to help. Can you provide your account number?"
+      },
+      {
+        "timestamp": "2024-05-16T00:02:00Z",
+        "sender": "customer",
+        "customer_id": "B022",
+        "message": "It's 998877."
+      },
+      {
+        "timestamp": "2024-05-16T00:05:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Thank you. How many new locations are we setting up?"
+      },
+      {
+        "timestamp": "2024-05-16T00:06:00Z",
+        "sender": "customer",
+        "customer_id": "B022",
+        "message": "We have three new offices opening next month."
+      },
+      {
+        "timestamp": "2024-05-16T00:07:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Great. I'll schedule the installation for each location. A technician will visit each site to set up the services."
+      },
+      {
+        "timestamp": "2024-05-16T00:08:00Z",
+        "sender": "customer",
+        "customer_id": "B022",
+        "message": "Thank you. We appreciate the support."
+      },
+      {
+        "timestamp": "2024-05-16T00:09:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "You're welcome! If you need further assistance, feel free to contact us."
+      }
+    ]
+  },
+  {
+    "call_id": "C023",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T01:00:00Z",
+        "sender": "customer",
+        "customer_id": "B023",
+        "message": "Hi, I'd like to know if there are any loyalty programs or rewards for long-term customers."
+      },
+      {
+        "timestamp": "2024-05-16T01:01:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Hello! We do have loyalty programs. Can you provide your account number so I can check your eligibility?"
+      },
+      {
+        "timestamp": "2024-05-16T01:02:00Z",
+        "sender": "customer",
+        "customer_id": "B023",
+        "message": "It's 778899."
+      },
+      {
+        "timestamp": "2024-05-16T01:05:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Thank you. I see that you've been with us for five years. You qualify for our loyalty program which offers a 15% discount on all services."
+      },
+      {
+        "timestamp": "2024-05-16T01:06:00Z",
+        "sender": "customer",
+        "customer_id": "B023",
+        "message": "That's great to hear! Please enroll us in the program."
+      },
+      {
+        "timestamp": "2024-05-16T01:07:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Done! You'll see the discount applied starting from your next billing cycle."
+      },
+      {
+        "timestamp": "2024-05-16T01:08:00Z",
+        "sender": "customer",
+        "customer_id": "B023",
+        "message": "Thank you for the information and the discount."
+      },
+      {
+        "timestamp": "2024-05-16T01:09:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "You're welcome! Have a great day."
+      }
+    ]
+  },
+  {
+    "call_id": "C024",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T02:00:00Z",
+        "sender": "customer",
+        "customer_id": "B024",
+        "message": "Hi, I need a detailed usage report for our internet and phone services for the last six months."
+      },
+      {
+        "timestamp": "2024-05-16T02:01:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Hello! I can help with that. Can you provide your account number?"
+      },
+      {
+        "timestamp": "2024-05-16T02:02:00Z",
+        "sender": "customer",
+        "customer_id": "B024",
+        "message": "It's 112255."
+      },
+      {
+        "timestamp": "2024-05-16T02:05:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Thank you. I'll compile the usage report for the last six months and email it to you shortly."
+      },
+      {
+        "timestamp": "2024-05-16T02:06:00Z",
+        "sender": "customer",
+        "customer_id": "B024",
+        "message": "Great, thank you!"
+      },
+      {
+        "timestamp": "2024-05-16T02:07:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "You're welcome! If you need any further assistance, feel free to contact us."
+      }
+    ]
+  },
+  {
+    "call_id": "C025",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T03:00:00Z",
+        "sender": "customer",
+        "customer_id": "B025",
+        "message": "Hi, we're moving to a new office and need to update our service address. How do we do that?"
+      },
+      {
+        "timestamp": "2024-05-16T03:01:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "Hello! I can assist with that. Can you provide your account number and the new address?"
+      },
+      {
+        "timestamp": "2024-05-16T03:02:00Z",
+        "sender": "customer",
+        "customer_id": "B025",
+        "message": "Sure, my account number is 223366, and the new address is 123 New Street, Suite 400."
+      },
+      {
+        "timestamp": "2024-05-16T03:05:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "Thank you. I've updated your service address. Your services will be transferred to the new location on the date of your move."
+      },
+      {
+        "timestamp": "2024-05-16T03:06:00Z",
+        "sender": "customer",
+        "customer_id": "B025",
+        "message": "Perfect, thanks for your help!"
+      },
+      {
+        "timestamp": "2024-05-16T03:07:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "You're welcome! Good luck with the move."
+      }
+    ]
+  },
+  {
+    "call_id": "C026",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T04:00:00Z",
+        "sender": "customer",
+        "customer_id": "B026",
+        "message": "Hi, we're interested in adding international calling plans to our account. What options do we have?"
+      },
+      {
+        "timestamp": "2024-05-16T04:01:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Hello! We offer several international calling plans. Can I have your account number to check your current setup?"
+      },
+      {
+        "timestamp": "2024-05-16T04:02:00Z",
+        "sender": "customer",
+        "customer_id": "B026",
+        "message": "It's 334466."
+      },
+      {
+        "timestamp": "2024-05-16T04:05:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Thank you. Based on your usage, I recommend our Global Business Plan, which offers unlimited international calls to over 50 countries for an additional $40 per month."
+      },
+      {
+        "timestamp": "2024-05-16T04:06:00Z",
+        "sender": "customer",
+        "customer_id": "B026",
+        "message": "That sounds good. Please add it to our account."
+      },
+      {
+        "timestamp": "2024-05-16T04:07:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Your plan has been updated to include the Global Business Plan. Thank you for choosing us!"
+      }
+    ]
+  },
+  {
+    "call_id": "C027",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T05:00:00Z",
+        "sender": "customer",
+        "customer_id": "B027",
+        "message": "Hi, I'd like to update the emergency contact information on our account."
+      },
+      {
+        "timestamp": "2024-05-16T05:01:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Hello! I can help with that. Can you provide your account number and the new contact information?"
+      },
+      {
+        "timestamp": "2024-05-16T05:02:00Z",
+        "sender": "customer",
+        "customer_id": "B027",
+        "message": "Sure, my account number is 445577, and the new emergency contact is John Smith, phone number 123-456-7890."
+      },
+      {
+        "timestamp": "2024-05-16T05:05:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Thank you. I've updated the emergency contact information on your account."
+      },
+      {
+        "timestamp": "2024-05-16T05:06:00Z",
+        "sender": "customer",
+        "customer_id": "B027",
+        "message": "Great, thanks for your help!"
+      },
+      {
+        "timestamp": "2024-05-16T05:07:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "You're welcome! Have a good day."
+      }
+    ]
+  },
+  {
+    "call_id": "C028",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T06:00:00Z",
+        "sender": "customer",
+        "customer_id": "B028",
+        "message": "Hi, we're interested in adding new cybersecurity features to our account. What options are available?"
+      },
+      {
+        "timestamp": "2024-05-16T06:01:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Hello! We offer several cybersecurity packages. Can I have your account number to check your current setup?"
+      },
+      {
+        "timestamp": "2024-05-16T06:02:00Z",
+        "sender": "customer",
+        "customer_id": "B028",
+        "message": "It's 556688."
+      },
+      {
+        "timestamp": "2024-05-16T06:05:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Thank you. Based on your needs, I recommend our Advanced Cybersecurity Package, which includes threat detection, firewall management, and regular security audits for an additional $50 per month."
+      },
+      {
+        "timestamp": "2024-05-16T06:06:00Z",
+        "sender": "customer",
+        "customer_id": "B028",
+        "message": "That sounds perfect. Please add it to our account."
+      },
+      {
+        "timestamp": "2024-05-16T06:07:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Your account has been updated with the Advanced Cybersecurity Package. Thank you for choosing us!"
+      }
+    ]
+  },
+  {
+    "call_id": "C029",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T07:00:00Z",
+        "sender": "customer",
+        "customer_id": "B029",
+        "message": "I'm absolutely fed up with your service. We've had multiple outages and nothing ever gets fixed! I want to cancel my account immediately."
+      },
+      {
+        "timestamp": "2024-05-16T07:01:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "I'm very sorry to hear that you're unhappy with our service. Can I have your account number so I can look into this for you?"
+      },
+      {
+        "timestamp": "2024-05-16T07:02:00Z",
+        "sender": "customer",
+        "customer_id": "B029",
+        "message": "It's 123456. But I'm done talking about this. Just cancel the service."
+      },
+      {
+        "timestamp": "2024-05-16T07:05:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "I understand your frustration. I see that there were recent outages in your area. I'd like to offer a credit for the inconvenience and ensure a technician visits to resolve any ongoing issues."
+      },
+      {
+        "timestamp": "2024-05-16T07:06:00Z",
+        "sender": "customer",
+        "customer_id": "B029",
+        "message": "No, I'm not interested in any credits or technician visits. Just cancel my service now."
+      },
+      {
+        "timestamp": "2024-05-16T07:07:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "I apologize for the trouble you've had. As a goodwill gesture, I can offer you a month of free service and upgrade your plan at no additional cost. Would you consider staying with us?"
+      },
+      {
+        "timestamp": "2024-05-16T07:08:00Z",
+        "sender": "customer",
+        "customer_id": "B029",
+        "message": "Absolutely not. I'm tired of these temporary fixes and offers. Cancel. The. Service. Now."
+      },
+      {
+        "timestamp": "2024-05-16T07:09:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "I understand your decision. I'll process the cancellation right away. You will receive a confirmation email shortly. We're sorry to see you go and if there's anything we can do in the future, please let us know."
+      },
+      {
+        "timestamp": "2024-05-16T07:10:00Z",
+        "sender": "customer",
+        "customer_id": "B029",
+        "message": "Finally. Thank you."
+      },
+      {
+        "timestamp": "2024-05-16T07:11:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "You're welcome. The service is now canceled. Have a good day."
+      }
+    ]
+  },
+  {
+    "call_id": "C030",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T08:00:00Z",
+        "sender": "customer",
+        "customer_id": "B030",
+        "message": "Hi, I'm really frustrated. Our internet speed drops significantly every afternoon. It's affecting our productivity."
+      },
+      {
+        "timestamp": "2024-05-16T08:01:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Hello, I'm sorry to hear about the issue. Can you provide your account number so I can check the details?"
+      },
+      {
+        "timestamp": "2024-05-16T08:02:00Z",
+        "sender": "customer",
+        "customer_id": "B030",
+        "message": "Sure, it's 998877."
+      },
+      {
+        "timestamp": "2024-05-16T08:05:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Thank you. I've checked your account and it looks like there's significant network congestion in your area during the afternoon peak hours. This is causing the slowdowns."
+      },
+      {
+        "timestamp": "2024-05-16T08:06:00Z",
+        "sender": "customer",
+        "customer_id": "B030",
+        "message": "That's really disappointing. We rely heavily on a stable connection for our business."
+      },
+      {
+        "timestamp": "2024-05-16T08:07:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "I understand your frustration. One solution we can offer is to switch you to our Business Pro package. This package includes a dedicated fiber line that guarantees stable speeds regardless of peak hours."
+      },
+      {
+        "timestamp": "2024-05-16T08:08:00Z",
+        "sender": "customer",
+        "customer_id": "B030",
+        "message": "A dedicated line sounds good, but I'm worried about the cost."
+      },
+      {
+        "timestamp": "2024-05-16T08:09:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "I completely understand. As a gesture of goodwill for the inconvenience you've faced, I can offer you a 20% discount on the Business Pro package for the first six months. Additionally, this package includes priority customer support and enhanced security features."
+      },
+      {
+        "timestamp": "2024-05-16T08:10:00Z",
+        "sender": "customer",
+        "customer_id": "B030",
+        "message": "That actually sounds quite reasonable, especially with the discount and additional features. Let's go ahead and switch to the Business Pro package."
+      },
+      {
+        "timestamp": "2024-05-16T08:11:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Great! I'll process the upgrade right now. The new service will be active within the next 24 hours. You'll receive a confirmation email shortly."
+      },
+      {
+        "timestamp": "2024-05-16T08:12:00Z",
+        "sender": "customer",
+        "customer_id": "B030",
+        "message": "Thank you for your help. This solution sounds like exactly what we need."
+      },
+      {
+        "timestamp": "2024-05-16T08:13:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "You're welcome! I'm glad we could find a solution that works for you. If you have any other questions or need further assistance, please don't hesitate to contact us."
+      },
+      {
+        "timestamp": "2024-05-16T08:14:00Z",
+        "sender": "customer",
+        "customer_id": "B030",
+        "message": "Thanks again. Have a great day!"
+      },
+      {
+        "timestamp": "2024-05-16T08:15:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "You too! Goodbye."
+      }
+    ]
+  },
+  {
+    "call_id": "C031",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T09:00:00Z",
+        "sender": "customer",
+        "customer_id": "B031",
+        "message": "Hi, we've been experiencing frequent service outages. It's really affecting our business. Can you help?"
+      },
+      {
+        "timestamp": "2024-05-16T09:01:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Hmm, outages? Can you give me your account number?"
+      },
+      {
+        "timestamp": "2024-05-16T09:02:00Z",
+        "sender": "customer",
+        "customer_id": "B031",
+        "message": "It's 334455."
+      },
+      {
+        "timestamp": "2024-05-16T09:05:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Alright, looks like there were some outages. Not much we can do, though. These things happen."
+      },
+      {
+        "timestamp": "2024-05-16T09:06:00Z",
+        "sender": "customer",
+        "customer_id": "B031",
+        "message": "That's not acceptable. We need a stable connection. Can you at least offer some compensation for the downtime?"
+      },
+      {
+        "timestamp": "2024-05-16T09:07:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Compensation? I don't think we do that. It's just part of the service."
+      },
+      {
+        "timestamp": "2024-05-16T09:08:00Z",
+        "sender": "customer",
+        "customer_id": "B031",
+        "message": "This is ridiculous. If this is the level of service you provide, we're going to cancel and switch to another provider."
+      },
+      {
+        "timestamp": "2024-05-16T09:09:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Alright, if that's what you want. I'll process the cancellation."
+      },
+      {
+        "timestamp": "2024-05-16T09:10:00Z",
+        "sender": "customer",
+        "customer_id": "B031",
+        "message": "Unbelievable. Goodbye."
+      },
+      {
+        "timestamp": "2024-05-16T09:11:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Bye."
+      }
+    ]
+  },
+  {
+    "call_id": "C032",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T10:00:00Z",
+        "sender": "customer",
+        "customer_id": "B032",
+        "message": "Hi, I'm calling because our internet speed has been very slow lately. Can you help?"
+      },
+      {
+        "timestamp": "2024-05-16T10:01:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Slow internet? Okay, what's your account number?"
+      },
+      {
+        "timestamp": "2024-05-16T10:02:00Z",
+        "sender": "customer",
+        "customer_id": "B032",
+        "message": "It's 556677."
+      },
+      {
+        "timestamp": "2024-05-16T10:05:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "I see. Well, it looks like everything's fine on our end. Maybe try restarting your router."
+      },
+      {
+        "timestamp": "2024-05-16T10:06:00Z",
+        "sender": "customer",
+        "customer_id": "B032",
+        "message": "We've already tried that multiple times. The issue persists."
+      },
+      {
+        "timestamp": "2024-05-16T10:07:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Hmm, not sure what else to suggest. You could wait and see if it improves."
+      },
+      {
+        "timestamp": "2024-05-16T10:08:00Z",
+        "sender": "customer",
+        "customer_id": "B032",
+        "message": "That's not a solution. Can you escalate this or send a technician?"
+      },
+      {
+        "timestamp": "2024-05-16T10:09:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Escalate? I don't think that's necessary. It should sort itself out."
+      },
+      {
+        "timestamp": "2024-05-16T10:10:00Z",
+        "sender": "customer",
+        "customer_id": "B032",
+        "message": "This is unacceptable. I'm very disappointed with this service. Goodbye."
+      },
+      {
+        "timestamp": "2024-05-16T10:11:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Okay, bye."
+      }
+    ]
+  },
+  {
+    "call_id": "C033",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T11:00:00Z",
+        "sender": "customer",
+        "customer_id": "B033",
+        "message": "Hi, we've been having a really strange problem with our internet. It works fine most of the time, but every time it rains, the connection drops."
+      },
+      {
+        "timestamp": "2024-05-16T11:01:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "Hello! That does sound unusual. Let's see if we can figure this out. Can I have your account number to start?"
+      },
+      {
+        "timestamp": "2024-05-16T11:02:00Z",
+        "sender": "customer",
+        "customer_id": "B033",
+        "message": "It's 998877."
+      },
+      {
+        "timestamp": "2024-05-16T11:05:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "Thank you. I see your account details here. Let's start with some basic checks. Is your router located near any windows or doors that might be exposed to rain?"
+      },
+      {
+        "timestamp": "2024-05-16T11:06:00Z",
+        "sender": "customer",
+        "customer_id": "B033",
+        "message": "No, it's in a central location inside the office."
+      },
+      {
+        "timestamp": "2024-05-16T11:07:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "Alright. Have you noticed any issues with other electronic devices during the rain, or is it just the internet connection?"
+      },
+      {
+        "timestamp": "2024-05-16T11:08:00Z",
+        "sender": "customer",
+        "customer_id": "B033",
+        "message": "It's just the internet. Everything else seems to be working fine."
+      },
+      {
+        "timestamp": "2024-05-16T11:09:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "Interesting. It could be an issue with the external lines. Let's narrow this down. Is your modem connected directly to the main line, or do you have any splitters or extensions?"
+      },
+      {
+        "timestamp": "2024-05-16T11:10:00Z",
+        "sender": "customer",
+        "customer_id": "B033",
+        "message": "We have a splitter because we use multiple devices."
+      },
+      {
+        "timestamp": "2024-05-16T11:11:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "Okay, let's try bypassing the splitter for now. Connect the modem directly to the main line and see if the issue persists."
+      },
+      {
+        "timestamp": "2024-05-16T11:15:00Z",
+        "sender": "customer",
+        "customer_id": "B033",
+        "message": "I connected it directly, but the problem still happens when it rains."
+      },
+      {
+        "timestamp": "2024-05-16T11:16:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "Alright, that rules out the splitter. Let's check the exterior setup. Is there any exposed wiring or equipment outside that could be affected by the rain?"
+      },
+      {
+        "timestamp": "2024-05-16T11:17:00Z",
+        "sender": "customer",
+        "customer_id": "B033",
+        "message": "I think the main line runs along the roof. I've noticed birds sometimes perch on the wire, but I haven't seen any damage."
+      },
+      {
+        "timestamp": "2024-05-16T11:18:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "Birds, you say? Birds perching on the wire might be a clue. Can you check if there's any bird droppings around the wire or the connection points?"
+      },
+      {
+        "timestamp": "2024-05-16T11:25:00Z",
+        "sender": "customer",
+        "customer_id": "B033",
+        "message": "Actually, yes, there are some droppings around where the wire connects to the building."
+      },
+      {
+        "timestamp": "2024-05-16T11:26:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "That's likely the issue. Bird droppings can be highly acidic and, when combined with rain, can cause interference or even corrosion on the connection points. Cleaning those areas should help."
+      },
+      {
+        "timestamp": "2024-05-16T11:27:00Z",
+        "sender": "customer",
+        "customer_id": "B033",
+        "message": "I never would have thought of that. I'll clean it up right away."
+      },
+      {
+        "timestamp": "2024-05-16T11:35:00Z",
+        "sender": "customer",
+        "customer_id": "B033",
+        "message": "I cleaned the area, and the connection seems stable now, even though it's raining. Thank you so much for your help!"
+      },
+      {
+        "timestamp": "2024-05-16T11:36:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "You're welcome! I'm glad we could resolve the issue. If you have any other problems or need further assistance, please don't hesitate to contact us."
+      },
+      {
+        "timestamp": "2024-05-16T11:37:00Z",
+        "sender": "customer",
+        "customer_id": "B033",
+        "message": "Will do. Thanks again!"
+      },
+      {
+        "timestamp": "2024-05-16T11:38:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "Have a great day!"
+      }
+    ]
+  },
+  {
+    "call_id": "C034",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T12:00:00Z",
+        "sender": "customer",
+        "customer_id": "B034",
+        "message": "Hi, our internet has been randomly cutting out and coming back. It's really affecting our work. Can you help?"
+      },
+      {
+        "timestamp": "2024-05-16T12:01:00Z",
+        "sender": "representative",
+        "representative_id": "R006",
+        "message": "Hello! That sounds frustrating. Let's see if we can figure this out. Can you provide your account number?"
+      },
+      {
+        "timestamp": "2024-05-16T12:02:00Z",
+        "sender": "customer",
+        "customer_id": "B034",
+        "message": "Sure, it's 445566."
+      },
+      {
+        "timestamp": "2024-05-16T12:05:00Z",
+        "sender": "representative",
+        "representative_id": "R006",
+        "message": "Thanks. I see your account details. Let's start with some basics. Have you noticed if the internet cuts out at specific times or under certain conditions?"
+      },
+      {
+        "timestamp": "2024-05-16T12:06:00Z",
+        "sender": "customer",
+        "customer_id": "B034",
+        "message": "It seems to happen randomly. We can't find any pattern."
+      },
+      {
+        "timestamp": "2024-05-16T12:07:00Z",
+        "sender": "representative",
+        "representative_id": "R006",
+        "message": "Alright. Let's check the physical setup. Is your modem and router in a well-ventilated area?"
+      },
+      {
+        "timestamp": "2024-05-16T12:08:00Z",
+        "sender": "customer",
+        "customer_id": "B034",
+        "message": "Yes, they're in a cool, open space."
+      },
+      {
+        "timestamp": "2024-05-16T12:09:00Z",
+        "sender": "representative",
+        "representative_id": "R006",
+        "message": "Good. Are there any electronic devices or appliances near your router that could cause interference?"
+      },
+      {
+        "timestamp": "2024-05-16T12:10:00Z",
+        "sender": "customer",
+        "customer_id": "B034",
+        "message": "Just the usual office equipment. Nothing new or unusual."
+      },
+      {
+        "timestamp": "2024-05-16T12:11:00Z",
+        "sender": "representative",
+        "representative_id": "R006",
+        "message": "Hmm. Let's check the cabling. Are all the cables securely connected? Sometimes a loose connection can cause intermittent issues."
+      },
+      {
+        "timestamp": "2024-05-16T12:15:00Z",
+        "sender": "customer",
+        "customer_id": "B034",
+        "message": "I checked, and everything seems to be connected properly."
+      },
+      {
+        "timestamp": "2024-05-16T12:16:00Z",
+        "sender": "representative",
+        "representative_id": "R006",
+        "message": "Alright. One more thing to check. Do you have any pets in the office?"
+      },
+      {
+        "timestamp": "2024-05-16T12:17:00Z",
+        "sender": "customer",
+        "customer_id": "B034",
+        "message": "Yes, we have an office cat. Why?"
+      },
+      {
+        "timestamp": "2024-05-16T12:18:00Z",
+        "sender": "representative",
+        "representative_id": "R006",
+        "message": "Believe it or not, pets can sometimes cause connectivity issues. Can you check if the cat has been playing with or chewing on any cables?"
+      },
+      {
+        "timestamp": "2024-05-16T12:25:00Z",
+        "sender": "customer",
+        "customer_id": "B034",
+        "message": "I just checked, and it looks like the cat had been playing with the modem power cable. It was a bit loose."
+      },
+      {
+        "timestamp": "2024-05-16T12:26:00Z",
+        "sender": "representative",
+        "representative_id": "R006",
+        "message": "That might be the culprit. Cats often see cables as toys. Securing the cables and keeping them out of reach should help."
+      },
+      {
+        "timestamp": "2024-05-16T12:27:00Z",
+        "sender": "customer",
+        "customer_id": "B034",
+        "message": "I've secured the cable now. The connection seems stable. I can't believe it was the cat all along!"
+      },
+      {
+        "timestamp": "2024-05-16T12:28:00Z",
+        "sender": "representative",
+        "representative_id": "R006",
+        "message": "Cats can be sneaky! I'm glad we figured it out. If you have any other issues or need further assistance, feel free to contact us."
+      },
+      {
+        "timestamp": "2024-05-16T12:29:00Z",
+        "sender": "customer",
+        "customer_id": "B034",
+        "message": "Thanks for your help. Have a great day!"
+      },
+      {
+        "timestamp": "2024-05-16T12:30:00Z",
+        "sender": "representative",
+        "representative_id": "R006",
+        "message": "You too! Goodbye."
+      }
+    ]
+  },
+  {
+    "call_id": "C035",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T13:00:00Z",
+        "sender": "customer",
+        "customer_id": "B035",
+        "message": "Hi, our internet has been a bit slow lately. Can you help with that?"
+      },
+      {
+        "timestamp": "2024-05-16T13:01:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Hello! I'd be happy to help. I see you're on our standard plan. We have an upgraded plan that offers double the speed for an additional $20 per month. Would you like to upgrade?"
+      },
+      {
+        "timestamp": "2024-05-16T13:02:00Z",
+        "sender": "customer",
+        "customer_id": "B035",
+        "message": "That sounds like a good idea. Let's go ahead with the upgrade."
+      },
+      {
+        "timestamp": "2024-05-16T13:03:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Great! I'll process the upgrade now. Your new speeds will be available within the next hour."
+      }
+    ]
+  },
+  {
+    "call_id": "C036",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T14:00:00Z",
+        "sender": "customer",
+        "customer_id": "B036",
+        "message": "Hi, we're considering adding more phone lines to our office. What are our options?"
+      },
+      {
+        "timestamp": "2024-05-16T14:01:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Hello! We offer a VoIP phone system that includes multiple lines and additional features like voicemail-to-email and call forwarding. It's a great upgrade for just $30 more per month."
+      },
+      {
+        "timestamp": "2024-05-16T14:02:00Z",
+        "sender": "customer",
+        "customer_id": "B036",
+        "message": "That sounds perfect. Let's upgrade to the VoIP system."
+      },
+      {
+        "timestamp": "2024-05-16T14:03:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Excellent choice! I'll set up the upgrade for you. The new system will be active within 24 hours."
+      }
+    ]
+  },
+  {
+    "call_id": "C037",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T15:00:00Z",
+        "sender": "customer",
+        "customer_id": "B037",
+        "message": "Hi, we're running out of space on our current cloud storage plan. What can we do?"
+      },
+      {
+        "timestamp": "2024-05-16T15:01:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Hello! We have a larger cloud storage plan that offers 2 TB for an additional $15 per month. Would you like to upgrade?"
+      },
+      {
+        "timestamp": "2024-05-16T15:02:00Z",
+        "sender": "customer",
+        "customer_id": "B037",
+        "message": "Yes, that would be great. Please upgrade our plan."
+      },
+      {
+        "timestamp": "2024-05-16T15:03:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Done! Your new cloud storage capacity will be available immediately."
+      }
+    ]
+  },
+  {
+    "call_id": "C038",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T16:00:00Z",
+        "sender": "customer",
+        "customer_id": "B038",
+        "message": "Hi, we had some issues last week and couldn't reach support quickly. Is there a way to get faster support?"
+      },
+      {
+        "timestamp": "2024-05-16T16:01:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Hello! We offer a priority support package that guarantees a response within 30 minutes. It's available for an additional $10 per month. Would you be interested?"
+      },
+      {
+        "timestamp": "2024-05-16T16:02:00Z",
+        "sender": "customer",
+        "customer_id": "B038",
+        "message": "Yes, that would be very helpful. Please add it to our account."
+      },
+      {
+        "timestamp": "2024-05-16T16:03:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "I've added priority support to your account. You'll now have access to faster response times."
+      }
+    ]
+  },
+  {
+    "call_id": "C039",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T17:00:00Z",
+        "sender": "customer",
+        "customer_id": "B039",
+        "message": "Hi, we're concerned about cybersecurity. Do you have any solutions to enhance our protection?"
+      },
+      {
+        "timestamp": "2024-05-16T17:01:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "Hello! We offer an advanced cybersecurity package that includes threat detection, firewall management, and regular security audits for an additional $25 per month. Would you like to add this to your account?"
+      },
+      {
+        "timestamp": "2024-05-16T17:02:00Z",
+        "sender": "customer",
+        "customer_id": "B039",
+        "message": "Yes, that sounds exactly like what we need. Please add it."
+      },
+      {
+        "timestamp": "2024-05-16T17:03:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "Your account has been updated with the advanced cybersecurity package. You're now better protected."
+      }
+    ]
+  },
+  {
+    "call_id": "C040",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T18:00:00Z",
+        "sender": "customer",
+        "customer_id": "B040",
+        "message": "Hi, we have been making more international calls recently. Are there any plans that could save us money?"
+      },
+      {
+        "timestamp": "2024-05-16T18:01:00Z",
+        "sender": "representative",
+        "representative_id": "R006",
+        "message": "Hello! We have an international calling plan that offers unlimited calls to over 50 countries for an additional $20 per month. Would you like to upgrade to this plan?"
+      },
+      {
+        "timestamp": "2024-05-16T18:02:00Z",
+        "sender": "customer",
+        "customer_id": "B040",
+        "message": "Yes, that would be very helpful. Please upgrade our plan."
+      },
+      {
+        "timestamp": "2024-05-16T18:03:00Z",
+        "sender": "representative",
+        "representative_id": "R006",
+        "message": "Your account has been upgraded to include the international calling plan. Enjoy your unlimited international calls!"
+      }
+    ]
+  },
+  {
+    "call_id": "C041",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T19:00:00Z",
+        "sender": "customer",
+        "customer_id": "B041",
+        "message": "Hi, we're worried about data loss. Do you offer any backup solutions?"
+      },
+      {
+        "timestamp": "2024-05-16T19:01:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Hello! Yes, we offer a data backup service that automatically backs up your data to the cloud. It's an additional $15 per month. Would you like to add this service?"
+      },
+      {
+        "timestamp": "2024-05-16T19:02:00Z",
+        "sender": "customer",
+        "customer_id": "B041",
+        "message": "Yes, that sounds like a great solution. Please add it to our account."
+      },
+      {
+        "timestamp": "2024-05-16T19:03:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "I've added the data backup service to your account. Your data will now be automatically backed up."
+      }
+    ]
+  },
+  {
+    "call_id": "C042",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T20:00:00Z",
+        "sender": "customer",
+        "customer_id": "B042",
+        "message": "Hi, we're having trouble managing our IT infrastructure. Do you offer any services to help with that?"
+      },
+      {
+        "timestamp": "2024-05-16T20:01:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Hello! We offer managed IT services that take care of your IT needs, including network management, software updates, and troubleshooting. It's available for an additional $50 per month. Would you like to add this service?"
+      },
+      {
+        "timestamp": "2024-05-16T20:02:00Z",
+        "sender": "customer",
+        "customer_id": "B042",
+        "message": "Yes, that would be very helpful. Please add it to our account."
+      },
+      {
+        "timestamp": "2024-05-16T20:03:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "I've added managed IT services to your account. We'll now handle all your IT needs."
+      }
+    ]
+  },
+  {
+    "call_id": "C043",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T21:00:00Z",
+        "sender": "customer",
+        "customer_id": "B043",
+        "message": "Hi, our Wi-Fi coverage is spotty in some areas of the office. Do you have any solutions to improve it?"
+      },
+      {
+        "timestamp": "2024-05-16T21:01:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Hello! We offer a Wi-Fi extender package that improves coverage in larger areas. It's available for an additional $10 per month. Would you like to add this to your account?"
+      },
+      {
+        "timestamp": "2024-05-16T21:02:00Z",
+        "sender": "customer",
+        "customer_id": "B043",
+        "message": "Yes, that sounds perfect. Please add it."
+      },
+      {
+        "timestamp": "2024-05-16T21:03:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "I've added the Wi-Fi extender package to your account. Your coverage should improve significantly."
+      }
+    ]
+  },
+  {
+    "call_id": "C044",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T22:00:00Z",
+        "sender": "customer",
+        "customer_id": "B044",
+        "message": "Hi, we often need technical support outside of regular hours. Do you have any support options for that?"
+      },
+      {
+        "timestamp": "2024-05-16T22:01:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Hello! We offer a premium support package that includes 24/7 technical support. It's available for an additional $25 per month. Would you like to add this to your account?"
+      },
+      {
+        "timestamp": "2024-05-16T22:02:00Z",
+        "sender": "customer",
+        "customer_id": "B044",
+        "message": "Yes, that would be very helpful. Please add it."
+      },
+      {
+        "timestamp": "2024-05-16T22:03:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "I've added the premium support package to your account. You'll now have access to 24/7 technical support."
+      }
+    ]
+  },
+  {
+    "call_id": "C045",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T08:00:00Z",
+        "sender": "customer",
+        "customer_id": "B045",
+        "message": "Hi, we're looking to implement a complex network solution for our growing business. Can you help?"
+      },
+      {
+        "timestamp": "2024-05-16T08:01:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Hello! I'd be happy to help. Can you provide more details on the type of network solution you're looking for?"
+      },
+      {
+        "timestamp": "2024-05-16T08:02:00Z",
+        "sender": "customer",
+        "customer_id": "B045",
+        "message": "We need a solution that includes advanced routing, multiple VLANs, and high-security protocols for our multi-site operations."
+      },
+      {
+        "timestamp": "2024-05-16T08:03:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "That sounds like a sophisticated setup. I'll need to connect you with our enterprise sales team who specialize in these solutions. Can I schedule a video call for you?"
+      },
+      {
+        "timestamp": "2024-05-16T08:04:00Z",
+        "sender": "customer",
+        "customer_id": "B045",
+        "message": "Yes, that would be great."
+      },
+      {
+        "timestamp": "2024-05-16T08:05:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "I've scheduled a video call with our enterprise sales team for tomorrow at 10 AM. You will receive a confirmation email shortly."
+      }
+    ]
+  },
+  {
+    "call_id": "C046",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T09:00:00Z",
+        "sender": "customer",
+        "customer_id": "B046",
+        "message": "Hi, we're looking to integrate our on-premises infrastructure with a hybrid cloud solution. Can you assist?"
+      },
+      {
+        "timestamp": "2024-05-16T09:01:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Hello! That sounds like an advanced project. Could you provide more specifics about your requirements?"
+      },
+      {
+        "timestamp": "2024-05-16T09:02:00Z",
+        "sender": "customer",
+        "customer_id": "B046",
+        "message": "We need seamless integration with both public and private cloud services, along with data synchronization and redundancy."
+      },
+      {
+        "timestamp": "2024-05-16T09:03:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Got it. This requires specialized support. I'll arrange for a video call with our business development team to discuss your needs in detail. When are you available?"
+      },
+      {
+        "timestamp": "2024-05-16T09:04:00Z",
+        "sender": "customer",
+        "customer_id": "B046",
+        "message": "I'm available this Friday afternoon."
+      },
+      {
+        "timestamp": "2024-05-16T09:05:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Perfect. I've scheduled a video call with our business development team for Friday at 2 PM. You'll receive the details via email."
+      }
+    ]
+  },
+  {
+    "call_id": "C047",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T10:00:00Z",
+        "sender": "customer",
+        "customer_id": "B047",
+        "message": "Hi, we need a highly customized security solution for our company. Can you help?"
+      },
+      {
+        "timestamp": "2024-05-16T10:01:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Hello! I'd love to help. Could you provide more details on the security requirements you have?"
+      },
+      {
+        "timestamp": "2024-05-16T10:02:00Z",
+        "sender": "customer",
+        "customer_id": "B047",
+        "message": "We need advanced threat detection, end-to-end encryption, and compliance with various industry regulations."
+      },
+      {
+        "timestamp": "2024-05-16T10:03:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Understood. This is quite specialized. I'll transfer you to our enterprise sales contact who handles these advanced security solutions. Can I schedule a call for you?"
+      },
+      {
+        "timestamp": "2024-05-16T10:04:00Z",
+        "sender": "customer",
+        "customer_id": "B047",
+        "message": "Yes, please schedule a call."
+      },
+      {
+        "timestamp": "2024-05-16T10:05:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "I've scheduled a call with our enterprise sales contact for tomorrow at 11 AM. You'll receive a confirmation email shortly."
+      }
+    ]
+  },
+  {
+    "call_id": "C048",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T11:00:00Z",
+        "sender": "customer",
+        "customer_id": "B048",
+        "message": "Hi, we're looking to implement IoT devices across our facilities and need a robust integration solution. Can you help?"
+      },
+      {
+        "timestamp": "2024-05-16T11:01:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Hello! That sounds like an exciting project. Could you provide more details on the IoT devices and integration you're looking for?"
+      },
+      {
+        "timestamp": "2024-05-16T11:02:00Z",
+        "sender": "customer",
+        "customer_id": "B048",
+        "message": "We need to connect sensors, machinery, and environmental controls with real-time data analytics and monitoring."
+      },
+      {
+        "timestamp": "2024-05-16T11:03:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "This is quite advanced. I'll need to connect you with our business development team who specialize in IoT solutions. Can I schedule a video call for you?"
+      },
+      {
+        "timestamp": "2024-05-16T11:04:00Z",
+        "sender": "customer",
+        "customer_id": "B048",
+        "message": "Yes, that would be great."
+      },
+      {
+        "timestamp": "2024-05-16T11:05:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "I've scheduled a video call with our business development team for Thursday at 3 PM. You will receive a confirmation email shortly."
+      }
+    ]
+  },
+  {
+    "call_id": "C049",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T12:00:00Z",
+        "sender": "customer",
+        "customer_id": "B049",
+        "message": "Hi, we're interested in implementing advanced data analytics for our operations. Can you assist?"
+      },
+      {
+        "timestamp": "2024-05-16T12:01:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "Hello! I'd love to help. Could you provide more details on the type of analytics you're looking for?"
+      },
+      {
+        "timestamp": "2024-05-16T12:02:00Z",
+        "sender": "customer",
+        "customer_id": "B049",
+        "message": "We need predictive analytics, machine learning integration, and real-time data processing."
+      },
+      {
+        "timestamp": "2024-05-16T12:03:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "That sounds advanced. I'll need to connect you with our enterprise sales team who specialize in these analytics solutions. Can I schedule a video call for you?"
+      },
+      {
+        "timestamp": "2024-05-16T12:04:00Z",
+        "sender": "customer",
+        "customer_id": "B049",
+        "message": "Yes, a video call would be perfect."
+      },
+      {
+        "timestamp": "2024-05-16T12:05:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "I've scheduled a video call with our enterprise sales team for next Monday at 11 AM. You'll receive a confirmation email shortly."
+      }
+    ]
+  },
+  {
+    "call_id": "C050",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T13:00:00Z",
+        "sender": "customer",
+        "customer_id": "B050",
+        "message": "Our internet has been down for three days, and we've received no help. This is unacceptable. We are considering canceling our service."
+      },
+      {
+        "timestamp": "2024-05-16T13:01:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "I'm very sorry to hear about the outage. Let me escalate this to our specialized technical support team immediately. Can I offer you a month's credit for the inconvenience while we resolve this?"
+      },
+      {
+        "timestamp": "2024-05-16T13:02:00Z",
+        "sender": "customer",
+        "customer_id": "B050",
+        "message": "A credit is a start, but we need this fixed now."
+      },
+      {
+        "timestamp": "2024-05-16T13:03:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "I understand. I've escalated your case to our highest priority. A technician will be out today to resolve this. You'll also receive a confirmation email shortly."
+      }
+    ]
+  },
+  {
+    "call_id": "C051",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T14:00:00Z",
+        "sender": "customer",
+        "customer_id": "B051",
+        "message": "We're experiencing severe data breaches, and your support team hasn't provided any solutions. We're thinking of moving to a different provider."
+      },
+      {
+        "timestamp": "2024-05-16T14:01:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "I'm very sorry to hear about the security issues. I'll connect you with our cybersecurity experts immediately. Additionally, I'd like to offer you three months of free enhanced security services as a gesture of goodwill."
+      },
+      {
+        "timestamp": "2024-05-16T14:02:00Z",
+        "sender": "customer",
+        "customer_id": "B051",
+        "message": "That sounds better. Please make sure this gets resolved quickly."
+      },
+      {
+        "timestamp": "2024-05-16T14:03:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "I've scheduled a call with our cybersecurity team within the next hour. You'll receive the details via email. We're committed to resolving this swiftly."
+      }
+    ]
+  },
+  {
+    "call_id": "C052",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T15:00:00Z",
+        "sender": "customer",
+        "customer_id": "B052",
+        "message": "Our phone lines have been dropping calls constantly, and your support hasn't been helpful. We're losing business because of this."
+      },
+      {
+        "timestamp": "2024-05-16T15:01:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "I apologize for the inconvenience. Let me transfer you to our advanced VoIP support team to resolve this. Additionally, I'll apply a two-month credit to your account for the disruptions."
+      },
+      {
+        "timestamp": "2024-05-16T15:02:00Z",
+        "sender": "customer",
+        "customer_id": "B052",
+        "message": "We need this fixed immediately. The credit is appreciated, but we can't keep dealing with this."
+      },
+      {
+        "timestamp": "2024-05-16T15:03:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Understood. I've escalated your case, and a senior VoIP technician will call you within the next 30 minutes to troubleshoot and resolve the issue."
+      }
+    ]
+  },
+  {
+    "call_id": "C053",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T16:00:00Z",
+        "sender": "customer",
+        "customer_id": "B053",
+        "message": "Our cloud storage keeps losing files, and we've received no satisfactory response from your team. We're thinking of switching providers."
+      },
+      {
+        "timestamp": "2024-05-16T16:01:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "I'm very sorry to hear about the data loss. I'll escalate this to our cloud storage specialists immediately. To compensate for the inconvenience, I'd like to offer you six months of free premium cloud storage."
+      },
+      {
+        "timestamp": "2024-05-16T16:02:00Z",
+        "sender": "customer",
+        "customer_id": "B053",
+        "message": "That's a good offer. Just make sure this gets fixed quickly."
+      },
+      {
+        "timestamp": "2024-05-16T16:03:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Absolutely. I've arranged a video call with our cloud storage team for this afternoon. You will receive an email with the details shortly."
+      }
+    ]
+  },
+  {
+    "call_id": "C054",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T17:00:00Z",
+        "sender": "customer",
+        "customer_id": "B054",
+        "message": "Our network speed has been terrible, and it's severely affecting our operations. We're considering ending our contract."
+      },
+      {
+        "timestamp": "2024-05-16T17:01:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "I apologize for the inconvenience. I'll connect you with our network optimization team to resolve this. Additionally, I'll offer you a two-month service credit and a free upgrade to our highest speed tier for three months."
+      },
+      {
+        "timestamp": "2024-05-16T17:02:00Z",
+        "sender": "customer",
+        "customer_id": "B054",
+        "message": "Alright, but this needs to be fixed immediately."
+      },
+      {
+        "timestamp": "2024-05-16T17:03:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "I've escalated your issue, and our network specialists will reach out to you within the hour. You'll receive a confirmation email shortly."
+      }
+    ]
+  },
+  {
+    "call_id": "C055",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T18:00:00Z",
+        "sender": "customer",
+        "customer_id": "B055",
+        "message": "We've been charged incorrectly for the past three months, and no one has fixed it. We're ready to cancel our service."
+      },
+      {
+        "timestamp": "2024-05-16T18:01:00Z",
+        "sender": "representative",
+        "representative_id": "R006",
+        "message": "I apologize for the billing errors. I'll escalate this to our billing resolution team immediately. To make up for the trouble, I'll offer you a full refund of the overcharges and an additional month of free service."
+      },
+      {
+        "timestamp": "2024-05-16T18:02:00Z",
+        "sender": "customer",
+        "customer_id": "B055",
+        "message": "That sounds fair, but please fix this quickly."
+      },
+      {
+        "timestamp": "2024-05-16T18:03:00Z",
+        "sender": "representative",
+        "representative_id": "R006",
+        "message": "I've escalated your issue, and our billing team will call you within the next hour to resolve this. You'll receive a confirmation email shortly."
+      }
+    ]
+  },
+  {
+    "call_id": "C056",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T19:00:00Z",
+        "sender": "customer",
+        "customer_id": "B056",
+        "message": "Our VoIP service has been dropping calls, and we've had no resolution. We're considering switching providers."
+      },
+      {
+        "timestamp": "2024-05-16T19:01:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "I'm very sorry to hear about the issues with your VoIP service. I'll connect you with our advanced VoIP support team. In the meantime, I'd like to offer you two months of free service as compensation."
+      },
+      {
+        "timestamp": "2024-05-16T19:02:00Z",
+        "sender": "customer",
+        "customer_id": "B056",
+        "message": "That helps, but we need this fixed immediately."
+      },
+      {
+        "timestamp": "2024-05-16T19:03:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "I've escalated your case, and a senior VoIP technician will call you within the next 30 minutes to troubleshoot and resolve the issue."
+      }
+    ]
+  },
+  {
+    "call_id": "C057",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T20:00:00Z",
+        "sender": "customer",
+        "customer_id": "B057",
+        "message": "Our internet connection has been intermittent, and your team hasn't provided a solution. We're thinking of canceling our service."
+      },
+      {
+        "timestamp": "2024-05-16T20:01:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "I apologize for the intermittent connection. I'll escalate this to our specialized technical support team. Additionally, I'd like to offer you a month's credit for the inconvenience."
+      },
+      {
+        "timestamp": "2024-05-16T20:02:00Z",
+        "sender": "customer",
+        "customer_id": "B057",
+        "message": "That sounds good, but we need this fixed now."
+      },
+      {
+        "timestamp": "2024-05-16T20:03:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "I've escalated your case, and a technician will be out today to resolve this. You'll also receive a confirmation email shortly."
+      }
+    ]
+  },
+  {
+    "call_id": "C058",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T21:00:00Z",
+        "sender": "customer",
+        "customer_id": "B058",
+        "message": "We've had multiple outages, and your support hasn't been helpful. We're losing business because of this."
+      },
+      {
+        "timestamp": "2024-05-16T21:01:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "I apologize for the inconvenience. Let me transfer you to our advanced support team to resolve this. Additionally, I'll apply a two-month credit to your account for the disruptions."
+      },
+      {
+        "timestamp": "2024-05-16T21:02:00Z",
+        "sender": "customer",
+        "customer_id": "B058",
+        "message": "We need this fixed immediately. The credit is appreciated, but we can't keep dealing with this."
+      },
+      {
+        "timestamp": "2024-05-16T21:03:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Understood. I've escalated your case, and a senior technician will call you within the next 30 minutes to troubleshoot and resolve the issue."
+      }
+    ]
+  },
+  {
+    "call_id": "C059",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T22:00:00Z",
+        "sender": "customer",
+        "customer_id": "B059",
+        "message": "Our cloud storage keeps losing files, and we've received no satisfactory response from your team. We're thinking of switching providers."
+      },
+      {
+        "timestamp": "2024-05-16T22:01:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "I'm very sorry to hear about the data loss. I'll escalate this to our cloud storage specialists immediately. To compensate for the inconvenience, I'd like to offer you six months of free premium cloud storage."
+      },
+      {
+        "timestamp": "2024-05-16T22:02:00Z",
+        "sender": "customer",
+        "customer_id": "B059",
+        "message": "That's a good offer. Just make sure this gets fixed quickly."
+      },
+      {
+        "timestamp": "2024-05-16T22:03:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Absolutely. I've arranged a video call with our cloud storage team for this afternoon. You will receive an email with the details shortly."
+      }
+    ]
+  },
+  {
+    "call_id": "C060",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T08:00:00Z",
+        "sender": "customer",
+        "customer_id": "B060",
+        "message": "Hi, our internet connection has been very unreliable for the past week. It keeps dropping out."
+      },
+      {
+        "timestamp": "2024-05-16T08:01:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Hello! I'm sorry to hear that. Can you provide your account number so I can look into this?"
+      },
+      {
+        "timestamp": "2024-05-16T08:02:00Z",
+        "sender": "customer",
+        "customer_id": "B060",
+        "message": "Sure, it's 998877."
+      },
+      {
+        "timestamp": "2024-05-16T08:05:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Thank you. I see your account details. Let's start with some basic troubleshooting. Can you tell me where your modem and router are located?"
+      },
+      {
+        "timestamp": "2024-05-16T08:06:00Z",
+        "sender": "customer",
+        "customer_id": "B060",
+        "message": "They're in the server room, which is fairly central in our office."
+      },
+      {
+        "timestamp": "2024-05-16T08:07:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "That's good. Are there any new electronic devices or appliances near the modem or router that could cause interference?"
+      },
+      {
+        "timestamp": "2024-05-16T08:08:00Z",
+        "sender": "customer",
+        "customer_id": "B060",
+        "message": "No, nothing new. Everything is as it was before the issue started."
+      },
+      {
+        "timestamp": "2024-05-16T08:09:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Understood. Have you tried rebooting the modem and router?"
+      },
+      {
+        "timestamp": "2024-05-16T08:10:00Z",
+        "sender": "customer",
+        "customer_id": "B060",
+        "message": "Yes, multiple times. It helps for a short while, but then the connection drops again."
+      },
+      {
+        "timestamp": "2024-05-16T08:11:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Let's check the cables next. Are all the cables securely connected? Sometimes a loose connection can cause intermittent issues."
+      },
+      {
+        "timestamp": "2024-05-16T08:15:00Z",
+        "sender": "customer",
+        "customer_id": "B060",
+        "message": "I just checked, and everything seems to be connected properly."
+      },
+      {
+        "timestamp": "2024-05-16T08:16:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Alright. I'll run a line test to check for any external issues. This will take a few minutes."
+      },
+      {
+        "timestamp": "2024-05-16T08:20:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "The line test shows some irregularities. It looks like there might be an issue with the wiring outside your premises. We'll need to send a technician to investigate further."
+      },
+      {
+        "timestamp": "2024-05-16T08:21:00Z",
+        "sender": "customer",
+        "customer_id": "B060",
+        "message": "Great, more waiting. This is really impacting our business. And considering the price we pay for this service, it's unacceptable."
+      },
+      {
+        "timestamp": "2024-05-16T08:22:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "I sincerely apologize for the delay. As a token of our apology, we will credit your account for this month's bill and provide a free upgrade to a higher-speed plan for the next three months."
+      },
+      {
+        "timestamp": "2024-05-16T08:23:00Z",
+        "sender": "customer",
+        "customer_id": "B060",
+        "message": "Alright, I expect the technician to arrive soon and fix this issue. Thank you for the credit."
+      },
+      {
+        "timestamp": "2024-05-16T08:24:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "You're welcome. The technician will be there within the next hour. We appreciate your patience and understanding."
+      }
+    ]
+  },
+  {
+    "call_id": "C061",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T09:00:00Z",
+        "sender": "customer",
+        "customer_id": "B061",
+        "message": "Hi, we're having issues with our VoIP phone system. Calls are frequently dropping, and the call quality is very poor."
+      },
+      {
+        "timestamp": "2024-05-16T09:01:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Hello! I'm sorry to hear about the problems with your VoIP system. Can you provide your account number so I can check your setup?"
+      },
+      {
+        "timestamp": "2024-05-16T09:02:00Z",
+        "sender": "customer",
+        "customer_id": "B061",
+        "message": "Sure, it's 445566."
+      },
+      {
+        "timestamp": "2024-05-16T09:05:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Thank you. I see your account details. Let's start with some basics. Are all the VoIP phones experiencing this issue, or just certain ones?"
+      },
+      {
+        "timestamp": "2024-05-16T09:06:00Z",
+        "sender": "customer",
+        "customer_id": "B061",
+        "message": "It seems to be affecting all of them."
+      },
+      {
+        "timestamp": "2024-05-16T09:07:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Alright. Are the phones connected directly to the router, or are they using a switch?"
+      },
+      {
+        "timestamp": "2024-05-16T09:08:00Z",
+        "sender": "customer",
+        "customer_id": "B061",
+        "message": "They're connected through a switch."
+      },
+      {
+        "timestamp": "2024-05-16T09:09:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Let's try bypassing the switch and connecting one of the phones directly to the router. This will help us determine if the switch is causing the issue."
+      },
+      {
+        "timestamp": "2024-05-16T09:15:00Z",
+        "sender": "customer",
+        "customer_id": "B061",
+        "message": "I've connected one phone directly to the router. The call quality seems better."
+      },
+      {
+        "timestamp": "2024-05-16T09:16:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "That indicates the switch might be the problem. It could be overloaded or malfunctioning. Do you have another switch you can use?"
+      },
+      {
+        "timestamp": "2024-05-16T09:17:00Z",
+        "sender": "customer",
+        "customer_id": "B061",
+        "message": "Yes, we have a spare switch. I'll swap it out and see if it makes a difference."
+      },
+      {
+        "timestamp": "2024-05-16T09:25:00Z",
+        "sender": "customer",
+        "customer_id": "B061",
+        "message": "I've replaced the switch, and the call quality is much better now. It looks like the old switch was the issue."
+      },
+      {
+        "timestamp": "2024-05-16T09:26:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Great to hear that! If you have any more issues, feel free to contact us. I'll also send a technician to check the rest of your network setup to ensure everything is working optimally."
+      },
+      {
+        "timestamp": "2024-05-16T09:27:00Z",
+        "sender": "customer",
+        "customer_id": "B061",
+        "message": "Thanks for your help. We appreciate it."
+      },
+      {
+        "timestamp": "2024-05-16T09:28:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "You're welcome! Have a great day."
+      }
+    ]
+  },
+  {
+    "call_id": "C062",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T10:00:00Z",
+        "sender": "customer",
+        "customer_id": "B062",
+        "message": "Hi, I've noticed several incorrect charges on our recent bills. We need this resolved as soon as possible."
+      },
+      {
+        "timestamp": "2024-05-16T10:01:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Hello! I'm sorry to hear about the billing issues. Can you provide your account number so I can review your bills?"
+      },
+      {
+        "timestamp": "2024-05-16T10:02:00Z",
+        "sender": "customer",
+        "customer_id": "B062",
+        "message": "It's 667788."
+      },
+      {
+        "timestamp": "2024-05-16T10:05:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Thank you. I see your account details. Can you specify which charges you believe are incorrect?"
+      },
+      {
+        "timestamp": "2024-05-16T10:06:00Z",
+        "sender": "customer",
+        "customer_id": "B062",
+        "message": "We've been charged for additional services we never requested or used, like the premium support package."
+      },
+      {
+        "timestamp": "2024-05-16T10:07:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "I understand. Let me review your account history and the charges in question."
+      },
+      {
+        "timestamp": "2024-05-16T10:15:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "I see the charges for the premium support package. It appears to have been added in error. I'll remove those charges and apply a credit to your account."
+      },
+      {
+        "timestamp": "2024-05-16T10:16:00Z",
+        "sender": "customer",
+        "customer_id": "B062",
+        "message": "Thank you. We also need to ensure this doesn't happen again. Can you confirm that these services are no longer on our account?"
+      },
+      {
+        "timestamp": "2024-05-16T10:17:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Absolutely. I've removed the premium support package from your account. You won't be billed for it moving forward. To make up for the inconvenience, I'd like to offer you a month of free service."
+      },
+      {
+        "timestamp": "2024-05-16T10:18:00Z",
+        "sender": "customer",
+        "customer_id": "B062",
+        "message": "That sounds fair. Thank you for resolving this quickly."
+      },
+      {
+        "timestamp": "2024-05-16T10:19:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "You're welcome. If you have any other issues or need further assistance, please don't hesitate to contact us."
+      }
+    ]
+  },
+  {
+    "call_id": "C063",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T11:00:00Z",
+        "sender": "customer",
+        "customer_id": "B063",
+        "message": "Hi, we're having trouble integrating your service with our existing IT infrastructure. It's causing a lot of issues."
+      },
+      {
+        "timestamp": "2024-05-16T11:01:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Hello! I'm sorry to hear about the integration issues. Can you provide more details on what you're experiencing?"
+      },
+      {
+        "timestamp": "2024-05-16T11:02:00Z",
+        "sender": "customer",
+        "customer_id": "B063",
+        "message": "We're trying to integrate your cloud services with our on-premises servers and it's not syncing correctly. Files are getting lost or duplicated."
+      },
+      {
+        "timestamp": "2024-05-16T11:03:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "I understand. Let me connect you with our IT integration specialist to assist you further."
+      },
+      {
+        "timestamp": "2024-05-16T11:04:00Z",
+        "sender": "customer",
+        "customer_id": "B063",
+        "message": "That would be helpful. We need this resolved as soon as possible."
+      },
+      {
+        "timestamp": "2024-05-16T11:05:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "I've escalated your case to our IT integration specialist. They'll be available for a video call in the next hour. You'll receive a confirmation email shortly."
+      },
+      {
+        "timestamp": "2024-05-16T11:06:00Z",
+        "sender": "customer",
+        "customer_id": "B063",
+        "message": "Thank you. Please ensure they can resolve the issue."
+      },
+      {
+        "timestamp": "2024-05-16T11:07:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Absolutely. We'll make sure this is resolved promptly. As a gesture of goodwill, I'd like to offer you three months of free service for the inconvenience."
+      },
+      {
+        "timestamp": "2024-05-16T11:08:00Z",
+        "sender": "customer",
+        "customer_id": "B063",
+        "message": "We appreciate that. Looking forward to the call with your specialist."
+      },
+      {
+        "timestamp": "2024-05-16T11:09:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "You're welcome. You'll receive the call details shortly. Thank you for your patience."
+      }
+    ]
+  },
+  {
+    "call_id": "C064",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T12:00:00Z",
+        "sender": "customer",
+        "customer_id": "B064",
+        "message": "Hi, our service has been going down multiple times a day for the past two weeks. We can't continue like this."
+      },
+      {
+        "timestamp": "2024-05-16T12:01:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "I'm very sorry to hear about the ongoing outages. Can you provide your account number so I can investigate further?"
+      },
+      {
+        "timestamp": "2024-05-16T12:02:00Z",
+        "sender": "customer",
+        "customer_id": "B064",
+        "message": "It's 778899."
+      },
+      {
+        "timestamp": "2024-05-16T12:05:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "Thank you. I see your account details. I'll run a detailed diagnostic on your line and service. This might take a few minutes."
+      },
+      {
+        "timestamp": "2024-05-16T12:10:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "The diagnostic shows intermittent signal loss from the external line. It looks like we need to send a senior technician to investigate and fix this."
+      },
+      {
+        "timestamp": "2024-05-16T12:11:00Z",
+        "sender": "customer",
+        "customer_id": "B064",
+        "message": "We need this resolved immediately. This downtime is costing us a lot of money."
+      },
+      {
+        "timestamp": "2024-05-16T12:12:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "I understand the urgency. I'll prioritize your case and ensure a senior technician is dispatched within the next two hours. Additionally, we'll credit your account for this month's bill and provide a free month of service."
+      },
+      {
+        "timestamp": "2024-05-16T12:13:00Z",
+        "sender": "customer",
+        "customer_id": "B064",
+        "message": "Alright, thank you. Please make sure the technician arrives promptly."
+      },
+      {
+        "timestamp": "2024-05-16T12:14:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "Absolutely. The technician will be there soon. Thank you for your patience and understanding."
+      }
+    ]
+  },
+  {
+    "call_id": "C065",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T13:00:00Z",
+        "sender": "customer",
+        "customer_id": "B065",
+        "message": "Hi, I need help resetting my account password."
+      },
+      {
+        "timestamp": "2024-05-16T13:01:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Sure, I can help with that. Can you provide your account number?"
+      },
+      {
+        "timestamp": "2024-05-16T13:02:00Z",
+        "sender": "customer",
+        "customer_id": "B065",
+        "message": "It's 123456."
+      },
+      {
+        "timestamp": "2024-05-16T13:05:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Thank you. I've sent a password reset link to your registered email. Please check your email and follow the instructions."
+      },
+      {
+        "timestamp": "2024-05-16T13:06:00Z",
+        "sender": "customer",
+        "customer_id": "B065",
+        "message": "Got it. Thank you for your help!"
+      },
+      {
+        "timestamp": "2024-05-16T13:07:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "You're welcome! Have a great day."
+      }
+    ]
+  },
+  {
+    "call_id": "C066",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T14:00:00Z",
+        "sender": "customer",
+        "customer_id": "B066",
+        "message": "Hello, I need to update the payment method on my account."
+      },
+      {
+        "timestamp": "2024-05-16T14:01:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "I can assist with that. Can you provide your account number?"
+      },
+      {
+        "timestamp": "2024-05-16T14:02:00Z",
+        "sender": "customer",
+        "customer_id": "B066",
+        "message": "It's 223344."
+      },
+      {
+        "timestamp": "2024-05-16T14:05:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Thank you. Please provide the new payment details."
+      },
+      {
+        "timestamp": "2024-05-16T14:06:00Z",
+        "sender": "customer",
+        "customer_id": "B066",
+        "message": "Here are the new credit card details: [Card Information]."
+      },
+      {
+        "timestamp": "2024-05-16T14:07:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "The payment method has been updated. Thank you!"
+      }
+    ]
+  },
+  {
+    "call_id": "C067",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T15:00:00Z",
+        "sender": "customer",
+        "customer_id": "B067",
+        "message": "Hi, we're moving offices and need to transfer our internet service to the new location."
+      },
+      {
+        "timestamp": "2024-05-16T15:01:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Sure, I can help with that. Can you provide your account number and the new address?"
+      },
+      {
+        "timestamp": "2024-05-16T15:02:00Z",
+        "sender": "customer",
+        "customer_id": "B067",
+        "message": "The account number is 334455, and the new address is 789 New Ave, Suite 100."
+      },
+      {
+        "timestamp": "2024-05-16T15:05:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Thank you. I've scheduled the service transfer for your moving date. You should be all set at the new location."
+      },
+      {
+        "timestamp": "2024-05-16T15:06:00Z",
+        "sender": "customer",
+        "customer_id": "B067",
+        "message": "Great, thanks for your help!"
+      },
+      {
+        "timestamp": "2024-05-16T15:07:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "You're welcome! Good luck with the move."
+      }
+    ]
+  },
+  {
+    "call_id": "C068",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T16:00:00Z",
+        "sender": "customer",
+        "customer_id": "B068",
+        "message": "Hi, I'd like to know more about your business internet plans."
+      },
+      {
+        "timestamp": "2024-05-16T16:01:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Of course! We offer several plans tailored for businesses. Can you tell me a bit about your current needs?"
+      },
+      {
+        "timestamp": "2024-05-16T16:02:00Z",
+        "sender": "customer",
+        "customer_id": "B068",
+        "message": "We need high-speed internet with reliable uptime as we have a lot of video conferences and cloud services."
+      },
+      {
+        "timestamp": "2024-05-16T16:05:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "I recommend our Business Pro plan, which offers speeds up to 1 Gbps and a 99.9% uptime guarantee. Would you like more details on this plan?"
+      },
+      {
+        "timestamp": "2024-05-16T16:06:00Z",
+        "sender": "customer",
+        "customer_id": "B068",
+        "message": "Yes, please send the details to my email."
+      },
+      {
+        "timestamp": "2024-05-16T16:07:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "I've sent the details to your email. If you have any questions, feel free to reach out."
+      }
+    ]
+  },
+  {
+    "call_id": "C069",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T17:00:00Z",
+        "sender": "customer",
+        "customer_id": "B069",
+        "message": "Hello, we need to add more lines to our VoIP service."
+      },
+      {
+        "timestamp": "2024-05-16T17:01:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "I can help with that. Can you provide your account number and the number of lines you need?"
+      },
+      {
+        "timestamp": "2024-05-16T17:02:00Z",
+        "sender": "customer",
+        "customer_id": "B069",
+        "message": "The account number is 556677, and we need five additional lines."
+      },
+      {
+        "timestamp": "2024-05-16T17:05:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "I've added the additional lines to your account. They should be active within the next hour."
+      },
+      {
+        "timestamp": "2024-05-16T17:06:00Z",
+        "sender": "customer",
+        "customer_id": "B069",
+        "message": "Perfect, thank you!"
+      },
+      {
+        "timestamp": "2024-05-16T17:07:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "You're welcome! If you need anything else, feel free to call."
+      }
+    ]
+  },
+  {
+    "call_id": "C070",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T18:00:00Z",
+        "sender": "customer",
+        "customer_id": "B070",
+        "message": "Hi, our bill seems higher than usual this month. Can you check why?"
+      },
+      {
+        "timestamp": "2024-05-16T18:01:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Of course. Can you provide your account number so I can review the charges?"
+      },
+      {
+        "timestamp": "2024-05-16T18:02:00Z",
+        "sender": "customer",
+        "customer_id": "B070",
+        "message": "It's 667788."
+      },
+      {
+        "timestamp": "2024-05-16T18:05:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "I see that you were charged for overage on your data plan. Would you like to upgrade to a higher data plan to avoid these charges in the future?"
+      },
+      {
+        "timestamp": "2024-05-16T18:06:00Z",
+        "sender": "customer",
+        "customer_id": "B070",
+        "message": "Yes, please upgrade us to the next data plan."
+      },
+      {
+        "timestamp": "2024-05-16T18:07:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "I've upgraded your data plan. You shouldn't see any more overage charges. Is there anything else I can help with?"
+      }
+    ]
+  },
+  {
+    "call_id": "C071",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T19:00:00Z",
+        "sender": "customer",
+        "customer_id": "B071",
+        "message": "Hi, we need to change the contact person on our account."
+      },
+      {
+        "timestamp": "2024-05-16T19:01:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "I can help with that. Can you provide your account number and the new contact details?"
+      },
+      {
+        "timestamp": "2024-05-16T19:02:00Z",
+        "sender": "customer",
+        "customer_id": "B071",
+        "message": "The account number is 778899, and the new contact person is John Doe, phone number 123-456-7890."
+      },
+      {
+        "timestamp": "2024-05-16T19:05:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Thank you. I've updated the contact information on your account."
+      },
+      {
+        "timestamp": "2024-05-16T19:06:00Z",
+        "sender": "customer",
+        "customer_id": "B071",
+        "message": "Great, thanks for your help!"
+      },
+      {
+        "timestamp": "2024-05-16T19:07:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "You're welcome! Have a good day."
+      }
+    ]
+  },
+  {
+    "call_id": "C072",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T20:00:00Z",
+        "sender": "customer",
+        "customer_id": "B072",
+        "message": "Hi, we're interested in your cybersecurity services. Can you provide more information?"
+      },
+      {
+        "timestamp": "2024-05-16T20:01:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Sure! We offer several cybersecurity packages. Can you tell me a bit about your specific needs?"
+      },
+      {
+        "timestamp": "2024-05-16T20:02:00Z",
+        "sender": "customer",
+        "customer_id": "B072",
+        "message": "We need advanced threat detection and regular security audits."
+      },
+      {
+        "timestamp": "2024-05-16T20:05:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "I recommend our Advanced Cybersecurity Package, which includes those features and more. Would you like to receive more details via email?"
+      },
+      {
+        "timestamp": "2024-05-16T20:06:00Z",
+        "sender": "customer",
+        "customer_id": "B072",
+        "message": "Yes, please send the details to my email."
+      },
+      {
+        "timestamp": "2024-05-16T20:07:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "I've sent the details. If you have any questions, feel free to contact us."
+      }
+    ]
+  },
+  {
+    "call_id": "C073",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T21:00:00Z",
+        "sender": "customer",
+        "customer_id": "B073",
+        "message": "Hello, I need help setting up our new modem."
+      },
+      {
+        "timestamp": "2024-05-16T21:01:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "I'd be happy to help. Can you provide your account number?"
+      },
+      {
+        "timestamp": "2024-05-16T21:02:00Z",
+        "sender": "customer",
+        "customer_id": "B073",
+        "message": "It's 889900."
+      },
+      {
+        "timestamp": "2024-05-16T21:05:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Thank you. Let's start by connecting the modem to the power outlet and the internet cable."
+      },
+      {
+        "timestamp": "2024-05-16T21:06:00Z",
+        "sender": "customer",
+        "customer_id": "B073",
+        "message": "Done."
+      },
+      {
+        "timestamp": "2024-05-16T21:07:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Now, wait for the lights on the modem to stabilize. This may take a few minutes."
+      },
+      {
+        "timestamp": "2024-05-16T21:10:00Z",
+        "sender": "customer",
+        "customer_id": "B073",
+        "message": "The lights are stable now."
+      },
+      {
+        "timestamp": "2024-05-16T21:11:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Great. Now, connect your computer or router to the modem using an Ethernet cable or Wi-Fi. You should be online now."
+      },
+      {
+        "timestamp": "2024-05-16T21:12:00Z",
+        "sender": "customer",
+        "customer_id": "B073",
+        "message": "It works! Thank you for your help."
+      },
+      {
+        "timestamp": "2024-05-16T21:13:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "You're welcome! If you have any other questions, feel free to reach out."
+      }
+    ]
+  },
+  {
+    "call_id": "C074",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T22:00:00Z",
+        "sender": "customer",
+        "customer_id": "B074",
+        "message": "Hi, I need to cancel a service that we're not using anymore."
+      },
+      {
+        "timestamp": "2024-05-16T22:01:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "I can help with that. Can you provide your account number and the service you want to cancel?"
+      },
+      {
+        "timestamp": "2024-05-16T22:02:00Z",
+        "sender": "customer",
+        "customer_id": "B074",
+        "message": "The account number is 990011, and we want to cancel the premium support package."
+      },
+      {
+        "timestamp": "2024-05-16T22:05:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "Thank you. I've canceled the premium support package. You won't be billed for it moving forward."
+      },
+      {
+        "timestamp": "2024-05-16T22:06:00Z",
+        "sender": "customer",
+        "customer_id": "B074",
+        "message": "Great, thanks for your help!"
+      },
+      {
+        "timestamp": "2024-05-16T22:07:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "You're welcome! Have a good day."
+      }
+    ]
+  },
+  {
+    "call_id": "C075",
+    "messages": [
+      {
+        "timestamp": "2024-05-16T23:00:00Z",
+        "sender": "customer",
+        "customer_id": "B075",
+        "message": "Hi, we're having trouble accessing our online account portal. Can you assist?"
+      },
+      {
+        "timestamp": "2024-05-16T23:01:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "I'd be happy to help. Can you provide your account number?"
+      },
+      {
+        "timestamp": "2024-05-16T23:02:00Z",
+        "sender": "customer",
+        "customer_id": "B075",
+        "message": "It's 112233."
+      },
+      {
+        "timestamp": "2024-05-16T23:05:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Thank you. Let me check your account. It looks like your password needs to be reset. I'll send a reset link to your registered email."
+      },
+      {
+        "timestamp": "2024-05-16T23:06:00Z",
+        "sender": "customer",
+        "customer_id": "B075",
+        "message": "Got it. I'll reset the password now. Thank you!"
+      },
+      {
+        "timestamp": "2024-05-16T23:07:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "You're welcome! If you need further assistance, feel free to contact us."
+      }
+    ]
+  },
+  {
+    "call_id": "C076",
+    "messages": [
+      {
+        "timestamp": "2024-05-17T08:00:00Z",
+        "sender": "customer",
+        "customer_id": "B076",
+        "message": "Hi, I need help updating our company's address on our account."
+      },
+      {
+        "timestamp": "2024-05-17T08:01:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Sure, I can help with that. Can you provide your account number and the new address?"
+      },
+      {
+        "timestamp": "2024-05-17T08:02:00Z",
+        "sender": "customer",
+        "customer_id": "B076",
+        "message": "The account number is 554433, and the new address is 123 Main St, Suite 200."
+      },
+      {
+        "timestamp": "2024-05-17T08:05:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Thank you. I've updated your address in our system."
+      },
+      {
+        "timestamp": "2024-05-17T08:06:00Z",
+        "sender": "customer",
+        "customer_id": "B076",
+        "message": "Great, thanks for your help!"
+      },
+      {
+        "timestamp": "2024-05-17T08:07:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "You're welcome! Have a great day."
+      }
+    ]
+  },
+  {
+    "call_id": "C077",
+    "messages": [
+      {
+        "timestamp": "2024-05-17T09:00:00Z",
+        "sender": "customer",
+        "customer_id": "B077",
+        "message": "Hello, we're experiencing slow internet speeds. Can you help?"
+      },
+      {
+        "timestamp": "2024-05-17T09:01:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "I'm sorry to hear that. Can you provide your account number so I can check your service?"
+      },
+      {
+        "timestamp": "2024-05-17T09:02:00Z",
+        "sender": "customer",
+        "customer_id": "B077",
+        "message": "It's 998877."
+      },
+      {
+        "timestamp": "2024-05-17T09:05:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Thank you. I see your account details. It looks like there's some congestion in your area. I'm going to optimize your connection to improve speeds."
+      },
+      {
+        "timestamp": "2024-05-17T09:06:00Z",
+        "sender": "customer",
+        "customer_id": "B077",
+        "message": "Thank you, that would be helpful."
+      },
+      {
+        "timestamp": "2024-05-17T09:07:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "I've made some adjustments. Your speeds should improve shortly."
+      },
+      {
+        "timestamp": "2024-05-17T09:08:00Z",
+        "sender": "customer",
+        "customer_id": "B077",
+        "message": "The speed is better now. Thanks for your help!"
+      },
+      {
+        "timestamp": "2024-05-17T09:09:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "You're welcome! Have a good day."
+      }
+    ]
+  },
+  {
+    "call_id": "C078",
+    "messages": [
+      {
+        "timestamp": "2024-05-17T10:00:00Z",
+        "sender": "customer",
+        "customer_id": "B078",
+        "message": "Hi, I'd like to add a new user to our account."
+      },
+      {
+        "timestamp": "2024-05-17T10:01:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "I can help with that. Can you provide your account number and the details of the new user?"
+      },
+      {
+        "timestamp": "2024-05-17T10:02:00Z",
+        "sender": "customer",
+        "customer_id": "B078",
+        "message": "The account number is 445566, and the new user is Jane Smith, email: jane.smith@company.com."
+      },
+      {
+        "timestamp": "2024-05-17T10:05:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Thank you. I've added Jane Smith as a new user to your account."
+      },
+      {
+        "timestamp": "2024-05-17T10:06:00Z",
+        "sender": "customer",
+        "customer_id": "B078",
+        "message": "Great, thanks for your help!"
+      },
+      {
+        "timestamp": "2024-05-17T10:07:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "You're welcome! Have a nice day."
+      }
+    ]
+  },
+  {
+    "call_id": "C079",
+    "messages": [
+      {
+        "timestamp": "2024-05-17T11:00:00Z",
+        "sender": "customer",
+        "customer_id": "B079",
+        "message": "Hello, we need to upgrade our internet plan to a higher speed."
+      },
+      {
+        "timestamp": "2024-05-17T11:01:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "I can assist with that. Can you provide your account number?"
+      },
+      {
+        "timestamp": "2024-05-17T11:02:00Z",
+        "sender": "customer",
+        "customer_id": "B079",
+        "message": "It's 112233."
+      },
+      {
+        "timestamp": "2024-05-17T11:05:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Thank you. I see your account. Our next tier plan offers speeds up to 500 Mbps. Would you like to upgrade to this plan?"
+      },
+      {
+        "timestamp": "2024-05-17T11:06:00Z",
+        "sender": "customer",
+        "customer_id": "B079",
+        "message": "Yes, please upgrade us to that plan."
+      },
+      {
+        "timestamp": "2024-05-17T11:07:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Your plan has been upgraded. The new speeds will be effective immediately."
+      },
+      {
+        "timestamp": "2024-05-17T11:08:00Z",
+        "sender": "customer",
+        "customer_id": "B079",
+        "message": "Thanks for your help!"
+      },
+      {
+        "timestamp": "2024-05-17T11:09:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "You're welcome! Have a great day."
+      }
+    ]
+  },
+  {
+    "call_id": "C080",
+    "messages": [
+      {
+        "timestamp": "2024-05-17T12:00:00Z",
+        "sender": "customer",
+        "customer_id": "B080",
+        "message": "Hi, we need to reset the router. Can you guide us through the process?"
+      },
+      {
+        "timestamp": "2024-05-17T12:01:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "Of course. First, locate the reset button on the back of the router. It's usually a small, recessed button."
+      },
+      {
+        "timestamp": "2024-05-17T12:02:00Z",
+        "sender": "customer",
+        "customer_id": "B080",
+        "message": "I've found it."
+      },
+      {
+        "timestamp": "2024-05-17T12:05:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "Press and hold the reset button for about 10 seconds using a paperclip or a similar object. The router should reboot."
+      },
+      {
+        "timestamp": "2024-05-17T12:06:00Z",
+        "sender": "customer",
+        "customer_id": "B080",
+        "message": "The router is rebooting now."
+      },
+      {
+        "timestamp": "2024-05-17T12:07:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "Once it finishes rebooting, your internet should be back online."
+      },
+      {
+        "timestamp": "2024-05-17T12:08:00Z",
+        "sender": "customer",
+        "customer_id": "B080",
+        "message": "It's back online. Thank you for your help!"
+      },
+      {
+        "timestamp": "2024-05-17T12:09:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "You're welcome! If you need further assistance, feel free to contact us."
+      }
+    ]
+  },
+  {
+    "call_id": "C081",
+    "messages": [
+      {
+        "timestamp": "2024-05-17T13:00:00Z",
+        "sender": "customer",
+        "customer_id": "B081",
+        "message": "Hi, our company needs to add a static IP address to our account."
+      },
+      {
+        "timestamp": "2024-05-17T13:01:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "I can assist with that. Can you provide your account number?"
+      },
+      {
+        "timestamp": "2024-05-17T13:02:00Z",
+        "sender": "customer",
+        "customer_id": "B081",
+        "message": "It's 556677."
+      },
+      {
+        "timestamp": "2024-05-17T13:05:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Thank you. I've added a static IP address to your account. It will be active within the next hour."
+      },
+      {
+        "timestamp": "2024-05-17T13:06:00Z",
+        "sender": "customer",
+        "customer_id": "B081",
+        "message": "Great, thanks for your help!"
+      },
+      {
+        "timestamp": "2024-05-17T13:07:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "You're welcome! Have a great day."
+      }
+    ]
+  },
+  {
+    "call_id": "C082",
+    "messages": [
+      {
+        "timestamp": "2024-05-17T14:00:00Z",
+        "sender": "customer",
+        "customer_id": "B082",
+        "message": "Hello, we need to set up port forwarding on our router. Can you guide us?"
+      },
+      {
+        "timestamp": "2024-05-17T14:01:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "I'd be happy to help. Can you provide your account number and the ports you need to forward?"
+      },
+      {
+        "timestamp": "2024-05-17T14:02:00Z",
+        "sender": "customer",
+        "customer_id": "B082",
+        "message": "The account number is 778899, and we need to forward ports 80 and 443."
+      },
+      {
+        "timestamp": "2024-05-17T14:05:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Thank you. Log into your router's web interface and navigate to the port forwarding section. Enter the ports 80 and 443 and the IP address of the device you want to forward them to."
+      },
+      {
+        "timestamp": "2024-05-17T14:06:00Z",
+        "sender": "customer",
+        "customer_id": "B082",
+        "message": "I've entered the information."
+      },
+      {
+        "timestamp": "2024-05-17T14:07:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Save the settings and reboot the router. The ports should now be forwarded."
+      },
+      {
+        "timestamp": "2024-05-17T14:08:00Z",
+        "sender": "customer",
+        "customer_id": "B082",
+        "message": "The ports are forwarded now. Thanks for your help!"
+      },
+      {
+        "timestamp": "2024-05-17T14:09:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "You're welcome! If you need further assistance, feel free to contact us."
+      }
+    ]
+  },
+  {
+    "call_id": "C083",
+    "messages": [
+      {
+        "timestamp": "2024-05-17T15:00:00Z",
+        "sender": "customer",
+        "customer_id": "B083",
+        "message": "Hi, we're having issues with our email service. Can you help?"
+      },
+      {
+        "timestamp": "2024-05-17T15:01:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "I'm sorry to hear that. Can you provide your account number and describe the issue you're experiencing?"
+      },
+      {
+        "timestamp": "2024-05-17T15:02:00Z",
+        "sender": "customer",
+        "customer_id": "B083",
+        "message": "It's 334455. We're not receiving any emails."
+      },
+      {
+        "timestamp": "2024-05-17T15:05:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Thank you. Let me check your account. It looks like there's an issue with the email server. I'll reset it, and you should start receiving emails shortly."
+      },
+      {
+        "timestamp": "2024-05-17T15:06:00Z",
+        "sender": "customer",
+        "customer_id": "B083",
+        "message": "Great, I'll wait for the emails to come through."
+      },
+      {
+        "timestamp": "2024-05-17T15:07:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "The server has been reset. You should start receiving emails now."
+      },
+      {
+        "timestamp": "2024-05-17T15:08:00Z",
+        "sender": "customer",
+        "customer_id": "B083",
+        "message": "The emails are coming through now. Thank you for your help!"
+      },
+      {
+        "timestamp": "2024-05-17T15:09:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "You're welcome! If you have any other issues, feel free to contact us."
+      }
+    ]
+  },
+  {
+    "call_id": "C084",
+    "messages": [
+      {
+        "timestamp": "2024-05-17T16:00:00Z",
+        "sender": "customer",
+        "customer_id": "B084",
+        "message": "Hi, I need help setting up a VPN on our network."
+      },
+      {
+        "timestamp": "2024-05-17T16:01:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "I can assist with that. Can you provide your account number?"
+      },
+      {
+        "timestamp": "2024-05-17T16:02:00Z",
+        "sender": "customer",
+        "customer_id": "B084",
+        "message": "It's 556677."
+      },
+      {
+        "timestamp": "2024-05-17T16:05:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Thank you. First, log into your router's web interface and navigate to the VPN section. Select 'Add New VPN' and enter the required details."
+      },
+      {
+        "timestamp": "2024-05-17T16:06:00Z",
+        "sender": "customer",
+        "customer_id": "B084",
+        "message": "I've entered the details."
+      },
+      {
+        "timestamp": "2024-05-17T16:07:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Save the settings and reboot the router. Your VPN should now be active."
+      },
+      {
+        "timestamp": "2024-05-17T16:08:00Z",
+        "sender": "customer",
+        "customer_id": "B084",
+        "message": "The VPN is working now. Thank you!"
+      },
+      {
+        "timestamp": "2024-05-17T16:09:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "You're welcome! If you need further assistance, feel free to contact us."
+      }
+    ]
+  },
+  {
+    "call_id": "C085",
+    "messages": [
+      {
+        "timestamp": "2024-05-17T17:00:00Z",
+        "sender": "customer",
+        "customer_id": "B085",
+        "message": "Hello, I need to set up a new email account for one of our employees."
+      },
+      {
+        "timestamp": "2024-05-17T17:01:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "I can help with that. Can you provide your account number and the details of the new employee?"
+      },
+      {
+        "timestamp": "2024-05-17T17:02:00Z",
+        "sender": "customer",
+        "customer_id": "B085",
+        "message": "The account number is 223344, and the new employee is Mark Johnson, email: mark.johnson@company.com."
+      },
+      {
+        "timestamp": "2024-05-17T17:05:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "Thank you. I've created the new email account for Mark Johnson."
+      },
+      {
+        "timestamp": "2024-05-17T17:06:00Z",
+        "sender": "customer",
+        "customer_id": "B085",
+        "message": "Great, thanks for your help!"
+      },
+      {
+        "timestamp": "2024-05-17T17:07:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "You're welcome! Have a nice day."
+      }
+    ]
+  },
+  {
+    "call_id": "C086",
+    "messages": [
+      {
+        "timestamp": "2024-05-17T18:00:00Z",
+        "sender": "customer",
+        "customer_id": "B086",
+        "message": "Hi, we're having trouble with our firewall settings. Can you assist?"
+      },
+      {
+        "timestamp": "2024-05-17T18:01:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "I'd be happy to help. Can you provide your account number and describe the issue?"
+      },
+      {
+        "timestamp": "2024-05-17T18:02:00Z",
+        "sender": "customer",
+        "customer_id": "B086",
+        "message": "It's 445566. We're trying to block certain IP addresses, but it's not working."
+      },
+      {
+        "timestamp": "2024-05-17T18:05:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Thank you. Log into your firewall settings and navigate to the IP filtering section. Add the IP addresses you want to block and save the settings."
+      },
+      {
+        "timestamp": "2024-05-17T18:06:00Z",
+        "sender": "customer",
+        "customer_id": "B086",
+        "message": "I've added the IP addresses and saved the settings."
+      },
+      {
+        "timestamp": "2024-05-17T18:07:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Now, reboot your firewall. The IP addresses should be blocked."
+      },
+      {
+        "timestamp": "2024-05-17T18:08:00Z",
+        "sender": "customer",
+        "customer_id": "B086",
+        "message": "The IP addresses are blocked now. Thanks for your help!"
+      },
+      {
+        "timestamp": "2024-05-17T18:09:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "You're welcome! If you need further assistance, feel free to contact us."
+      }
+    ]
+  },
+  {
+    "call_id": "C087",
+    "messages": [
+      {
+        "timestamp": "2024-05-17T09:00:00Z",
+        "sender": "customer",
+        "customer_id": "B087",
+        "message": "Hi, I need to change the billing address on our account."
+      },
+      {
+        "timestamp": "2024-05-17T09:01:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Sure, I can help with that. Can you provide your account number and the new billing address?"
+      },
+      {
+        "timestamp": "2024-05-17T09:02:00Z",
+        "sender": "customer",
+        "customer_id": "B087",
+        "message": "The account number is 445566, and the new billing address is 123 Oak St, Suite 400."
+      },
+      {
+        "timestamp": "2024-05-17T09:05:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Thank you. I've updated your billing address in our system."
+      },
+      {
+        "timestamp": "2024-05-17T09:06:00Z",
+        "sender": "customer",
+        "customer_id": "B087",
+        "message": "Great, thanks for your help!"
+      },
+      {
+        "timestamp": "2024-05-17T09:07:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "You're welcome! Have a great day."
+      }
+    ]
+  },
+  {
+    "call_id": "C088",
+    "messages": [
+      {
+        "timestamp": "2024-05-17T10:00:00Z",
+        "sender": "customer",
+        "customer_id": "B088",
+        "message": "Hello, we need to upgrade our data plan to a higher tier."
+      },
+      {
+        "timestamp": "2024-05-17T10:01:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "I can assist with that. Can you provide your account number?"
+      },
+      {
+        "timestamp": "2024-05-17T10:02:00Z",
+        "sender": "customer",
+        "customer_id": "B088",
+        "message": "It's 556677."
+      },
+      {
+        "timestamp": "2024-05-17T10:05:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Thank you. I see your account. Our next tier plan offers more data at a higher speed. Would you like to upgrade to this plan?"
+      },
+      {
+        "timestamp": "2024-05-17T10:06:00Z",
+        "sender": "customer",
+        "customer_id": "B088",
+        "message": "Yes, please upgrade us to that plan."
+      },
+      {
+        "timestamp": "2024-05-17T10:07:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Your plan has been upgraded. The new data limits and speeds will be effective immediately."
+      },
+      {
+        "timestamp": "2024-05-17T10:08:00Z",
+        "sender": "customer",
+        "customer_id": "B088",
+        "message": "Thanks for your help!"
+      },
+      {
+        "timestamp": "2024-05-17T10:09:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "You're welcome! Have a great day."
+      }
+    ]
+  },
+  {
+    "call_id": "C089",
+    "messages": [
+      {
+        "timestamp": "2024-05-17T11:00:00Z",
+        "sender": "customer",
+        "customer_id": "B089",
+        "message": "Hi, I need help setting up our new office phones."
+      },
+      {
+        "timestamp": "2024-05-17T11:01:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "I'd be happy to help. Can you provide your account number?"
+      },
+      {
+        "timestamp": "2024-05-17T11:02:00Z",
+        "sender": "customer",
+        "customer_id": "B089",
+        "message": "It's 667788."
+      },
+      {
+        "timestamp": "2024-05-17T11:05:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Thank you. Let's start by connecting the phones to the power and network ports."
+      },
+      {
+        "timestamp": "2024-05-17T11:06:00Z",
+        "sender": "customer",
+        "customer_id": "B089",
+        "message": "Done."
+      },
+      {
+        "timestamp": "2024-05-17T11:07:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Great. Now, configure the phones by entering the IP address, subnet mask, and default gateway."
+      },
+      {
+        "timestamp": "2024-05-17T11:10:00Z",
+        "sender": "customer",
+        "customer_id": "B089",
+        "message": "The phones are configured and working now. Thank you!"
+      },
+      {
+        "timestamp": "2024-05-17T11:11:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "You're welcome! If you need further assistance, feel free to contact us."
+      }
+    ]
+  },
+  {
+    "call_id": "C090",
+    "messages": [
+      {
+        "timestamp": "2024-05-17T12:00:00Z",
+        "sender": "customer",
+        "customer_id": "B090",
+        "message": "Hello, we're having trouble with our network printer. Can you assist?"
+      },
+      {
+        "timestamp": "2024-05-17T12:01:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "I'd be happy to help. Can you provide your account number and describe the issue?"
+      },
+      {
+        "timestamp": "2024-05-17T12:02:00Z",
+        "sender": "customer",
+        "customer_id": "B090",
+        "message": "It's 778899. The printer is not connecting to the network."
+      },
+      {
+        "timestamp": "2024-05-17T12:05:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Thank you. Let's start by checking the printer's network settings. Ensure it's set to obtain an IP address automatically."
+      },
+      {
+        "timestamp": "2024-05-17T12:06:00Z",
+        "sender": "customer",
+        "customer_id": "B090",
+        "message": "It's set correctly, but still not connecting."
+      },
+      {
+        "timestamp": "2024-05-17T12:07:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Next, try restarting both the printer and your router. This can often resolve connectivity issues."
+      },
+      {
+        "timestamp": "2024-05-17T12:10:00Z",
+        "sender": "customer",
+        "customer_id": "B090",
+        "message": "I've restarted both, and the printer is now connected. Thank you!"
+      },
+      {
+        "timestamp": "2024-05-17T12:11:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "You're welcome! If you need further assistance, feel free to contact us."
+      }
+    ]
+  },
+  {
+    "call_id": "C091",
+    "messages": [
+      {
+        "timestamp": "2024-05-17T13:00:00Z",
+        "sender": "customer",
+        "customer_id": "B091",
+        "message": "Hi, we need to set up a new email domain for our company."
+      },
+      {
+        "timestamp": "2024-05-17T13:01:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "I can assist with that. Can you provide your account number and the new domain name?"
+      },
+      {
+        "timestamp": "2024-05-17T13:02:00Z",
+        "sender": "customer",
+        "customer_id": "B091",
+        "message": "The account number is 223344, and the new domain is newcompany.com."
+      },
+      {
+        "timestamp": "2024-05-17T13:05:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "Thank you. I've set up the new email domain for your company."
+      },
+      {
+        "timestamp": "2024-05-17T13:06:00Z",
+        "sender": "customer",
+        "customer_id": "B091",
+        "message": "Great, thanks for your help!"
+      },
+      {
+        "timestamp": "2024-05-17T13:07:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "You're welcome! Have a nice day."
+      }
+    ]
+  },
+  {
+    "call_id": "C092",
+    "messages": [
+      {
+        "timestamp": "2024-05-17T14:00:00Z",
+        "sender": "customer",
+        "customer_id": "B092",
+        "message": "Hi, we're experiencing issues with our website's SSL certificate. Can you help?"
+      },
+      {
+        "timestamp": "2024-05-17T14:01:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "I'd be happy to help. Can you provide your account number and describe the issue?"
+      },
+      {
+        "timestamp": "2024-05-17T14:02:00Z",
+        "sender": "customer",
+        "customer_id": "B092",
+        "message": "It's 556677. The SSL certificate appears to be expired."
+      },
+      {
+        "timestamp": "2024-05-17T14:05:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Thank you. Let's check the certificate status. You may need to renew it or install a new one."
+      },
+      {
+        "timestamp": "2024-05-17T14:06:00Z",
+        "sender": "customer",
+        "customer_id": "B092",
+        "message": "I've tried renewing it, but it doesn't seem to work."
+      },
+      {
+        "timestamp": "2024-05-17T14:07:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Let's reinstall the SSL certificate. Log into your web hosting control panel and navigate to the SSL/TLS section. Choose 'Reinstall Certificate' and follow the prompts."
+      },
+      {
+        "timestamp": "2024-05-17T14:10:00Z",
+        "sender": "customer",
+        "customer_id": "B092",
+        "message": "The certificate has been reinstalled and is now working. Thank you!"
+      },
+      {
+        "timestamp": "2024-05-17T14:11:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "You're welcome! If you need further assistance, feel free to contact us."
+      }
+    ]
+  },
+  {
+    "call_id": "C093",
+    "messages": [
+      {
+        "timestamp": "2024-05-17T15:00:00Z",
+        "sender": "customer",
+        "customer_id": "B093",
+        "message": "Hi, we're having trouble with our network configuration. Can you assist?"
+      },
+      {
+        "timestamp": "2024-05-17T15:01:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "I'd be happy to help. Can you provide your account number and describe the issue?"
+      },
+      {
+        "timestamp": "2024-05-17T15:02:00Z",
+        "sender": "customer",
+        "customer_id": "B093",
+        "message": "It's 778899. The network seems to be having frequent drops and slow speeds."
+      },
+      {
+        "timestamp": "2024-05-17T15:05:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Thank you. Let's check the router and switch configuration. Ensure all devices are properly connected and check for any firmware updates."
+      },
+      {
+        "timestamp": "2024-05-17T15:06:00Z",
+        "sender": "customer",
+        "customer_id": "B093",
+        "message": "All devices are connected, and the firmware is up to date."
+      },
+      {
+        "timestamp": "2024-05-17T15:07:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Try resetting the router and switch to their default settings and reconfigure the network. This can often resolve persistent issues."
+      },
+      {
+        "timestamp": "2024-05-17T15:10:00Z",
+        "sender": "customer",
+        "customer_id": "B093",
+        "message": "I've reset and reconfigured everything. The network seems stable now. Thanks for your help!"
+      },
+      {
+        "timestamp": "2024-05-17T15:11:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "You're welcome! If you need further assistance, feel free to contact us."
+      }
+    ]
+  },
+  {
+    "call_id": "C094",
+    "messages": [
+      {
+        "timestamp": "2024-05-17T16:00:00Z",
+        "sender": "customer",
+        "customer_id": "B094",
+        "message": "Hi, we're having issues with our backup service. Can you help?"
+      },
+      {
+        "timestamp": "2024-05-17T16:01:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "I'm sorry to hear that. Can you provide your account number and describe the issue?"
+      },
+      {
+        "timestamp": "2024-05-17T16:02:00Z",
+        "sender": "customer",
+        "customer_id": "B094",
+        "message": "It's 112233. The backups are not completing successfully."
+      },
+      {
+        "timestamp": "2024-05-17T16:05:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Thank you. Let's check the backup logs to identify any errors or issues."
+      },
+      {
+        "timestamp": "2024-05-17T16:06:00Z",
+        "sender": "customer",
+        "customer_id": "B094",
+        "message": "The logs show a network timeout error."
+      },
+      {
+        "timestamp": "2024-05-17T16:07:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "This could be due to network congestion. Try running the backup during off-peak hours when the network is less busy."
+      },
+      {
+        "timestamp": "2024-05-17T16:10:00Z",
+        "sender": "customer",
+        "customer_id": "B094",
+        "message": "I've rescheduled the backups for the evening. I'll monitor and see if it completes successfully."
+      },
+      {
+        "timestamp": "2024-05-17T16:11:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Great. If the issue persists, feel free to contact us again."
+      }
+    ]
+  },
+  {
+    "call_id": "C095",
+    "messages": [
+      {
+        "timestamp": "2024-05-17T17:00:00Z",
+        "sender": "customer",
+        "customer_id": "B095",
+        "message": "Hi, I need to add a new feature to our phone system."
+      },
+      {
+        "timestamp": "2024-05-17T17:01:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "I can assist with that. Can you provide your account number and the feature you want to add?"
+      },
+      {
+        "timestamp": "2024-05-17T17:02:00Z",
+        "sender": "customer",
+        "customer_id": "B095",
+        "message": "The account number is 334455, and we want to add call forwarding."
+      },
+      {
+        "timestamp": "2024-05-17T17:05:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Thank you. I've added call forwarding to your phone system."
+      },
+      {
+        "timestamp": "2024-05-17T17:06:00Z",
+        "sender": "customer",
+        "customer_id": "B095",
+        "message": "Great, thanks for your help!"
+      },
+      {
+        "timestamp": "2024-05-17T17:07:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "You're welcome! Have a nice day."
+      }
+    ]
+  },
+  {
+    "call_id": "C096",
+    "messages": [
+      {
+        "timestamp": "2024-05-17T18:00:00Z",
+        "sender": "customer",
+        "customer_id": "B096",
+        "message": "Hello, we're experiencing issues with our VPN connection. Can you help?"
+      },
+      {
+        "timestamp": "2024-05-17T18:01:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "I'd be happy to help. Can you provide your account number and describe the issue?"
+      },
+      {
+        "timestamp": "2024-05-17T18:02:00Z",
+        "sender": "customer",
+        "customer_id": "B096",
+        "message": "It's 445566. The VPN connection is frequently dropping."
+      },
+      {
+        "timestamp": "2024-05-17T18:05:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "Thank you. Let's check the VPN settings and logs for any errors."
+      },
+      {
+        "timestamp": "2024-05-17T18:06:00Z",
+        "sender": "customer",
+        "customer_id": "B096",
+        "message": "The logs show a timeout error."
+      },
+      {
+        "timestamp": "2024-05-17T18:07:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "This could be due to network congestion. Try increasing the timeout settings and ensure the network is stable."
+      },
+      {
+        "timestamp": "2024-05-17T18:10:00Z",
+        "sender": "customer",
+        "customer_id": "B096",
+        "message": "I've increased the timeout settings and the connection seems stable now. Thanks for your help!"
+      },
+      {
+        "timestamp": "2024-05-17T18:11:00Z",
+        "sender": "representative",
+        "representative_id": "R005",
+        "message": "You're welcome! If you need further assistance, feel free to contact us."
+      }
+    ]
+  },
+  {
+    "call_id": "C097",
+    "messages": [
+      {
+        "timestamp": "2024-05-17T08:00:00Z",
+        "sender": "customer",
+        "customer_id": "B097",
+        "message": "Hi, I need help setting up our company's email on new devices."
+      },
+      {
+        "timestamp": "2024-05-17T08:01:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "I'd be happy to assist. Can you provide your account number and the types of devices you're setting up?"
+      },
+      {
+        "timestamp": "2024-05-17T08:02:00Z",
+        "sender": "customer",
+        "customer_id": "B097",
+        "message": "Our account number is 998877. We're setting up emails on both iPhones and Android devices."
+      },
+      {
+        "timestamp": "2024-05-17T08:05:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "Great. For iPhones, go to Settings > Mail > Accounts > Add Account. For Android, go to Settings > Accounts > Add Account > Email. Use your email address and password for both setups."
+      },
+      {
+        "timestamp": "2024-05-17T08:06:00Z",
+        "sender": "customer",
+        "customer_id": "B097",
+        "message": "Got it. We've set up the emails on both devices. Thank you for your help!"
+      },
+      {
+        "timestamp": "2024-05-17T08:07:00Z",
+        "sender": "representative",
+        "representative_id": "R001",
+        "message": "You're welcome! If you need further assistance, feel free to contact us."
+      }
+    ]
+  },
+  {
+    "call_id": "C098",
+    "messages": [
+      {
+        "timestamp": "2024-05-17T09:00:00Z",
+        "sender": "customer",
+        "customer_id": "B098",
+        "message": "Hello, we need to change the primary contact on our account."
+      },
+      {
+        "timestamp": "2024-05-17T09:01:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "I can help with that. Can you provide your account number and the details of the new primary contact?"
+      },
+      {
+        "timestamp": "2024-05-17T09:02:00Z",
+        "sender": "customer",
+        "customer_id": "B098",
+        "message": "The account number is 556677. The new primary contact is John Smith, email: john.smith@company.com."
+      },
+      {
+        "timestamp": "2024-05-17T09:05:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "Thank you. I've updated the primary contact information on your account."
+      },
+      {
+        "timestamp": "2024-05-17T09:06:00Z",
+        "sender": "customer",
+        "customer_id": "B098",
+        "message": "Great, thanks for your help!"
+      },
+      {
+        "timestamp": "2024-05-17T09:07:00Z",
+        "sender": "representative",
+        "representative_id": "R002",
+        "message": "You're welcome! Have a great day."
+      }
+    ]
+  },
+  {
+    "call_id": "C099",
+    "messages": [
+      {
+        "timestamp": "2024-05-17T10:00:00Z",
+        "sender": "customer",
+        "customer_id": "B099",
+        "message": "Hi, we need to add a new phone line to our office."
+      },
+      {
+        "timestamp": "2024-05-17T10:01:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "I can assist with that. Can you provide your account number and the details of the new phone line?"
+      },
+      {
+        "timestamp": "2024-05-17T10:02:00Z",
+        "sender": "customer",
+        "customer_id": "B099",
+        "message": "The account number is 667788, and we need to add a phone line for our new sales department."
+      },
+      {
+        "timestamp": "2024-05-17T10:05:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "Thank you. I've added a new phone line to your account for the sales department. It should be active shortly."
+      },
+      {
+        "timestamp": "2024-05-17T10:06:00Z",
+        "sender": "customer",
+        "customer_id": "B099",
+        "message": "Perfect, thanks for your help!"
+      },
+      {
+        "timestamp": "2024-05-17T10:07:00Z",
+        "sender": "representative",
+        "representative_id": "R003",
+        "message": "You're welcome! Have a great day."
+      }
+    ]
+  },
+  {
+    "call_id": "C100",
+    "messages": [
+      {
+        "timestamp": "2024-05-17T11:00:00Z",
+        "sender": "customer",
+        "customer_id": "B100",
+        "message": "Hi, we need to configure our router for a static IP address."
+      },
+      {
+        "timestamp": "2024-05-17T11:01:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "I can help with that. Can you provide your account number and the static IP details?"
+      },
+      {
+        "timestamp": "2024-05-17T11:02:00Z",
+        "sender": "customer",
+        "customer_id": "B100",
+        "message": "The account number is 778899, and our static IP details are IP: 192.168.1.100, Subnet: 255.255.255.0, Gateway: 192.168.1.1."
+      },
+      {
+        "timestamp": "2024-05-17T11:05:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Thank you. Log into your router's web interface and navigate to the network settings. Enter the static IP details and save the configuration."
+      },
+      {
+        "timestamp": "2024-05-17T11:06:00Z",
+        "sender": "customer",
+        "customer_id": "B100",
+        "message": "I've entered the details and saved the configuration."
+      },
+      {
+        "timestamp": "2024-05-17T11:07:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "Great. Your router is now configured for a static IP address. If you need further assistance, feel free to contact us."
+      },
+      {
+        "timestamp": "2024-05-17T11:08:00Z",
+        "sender": "customer",
+        "customer_id": "B100",
+        "message": "Thank you for your help!"
+      },
+      {
+        "timestamp": "2024-05-17T11:09:00Z",
+        "sender": "representative",
+        "representative_id": "R004",
+        "message": "You're welcome! Have a great day."
+      }
+    ]
+  }
+]
