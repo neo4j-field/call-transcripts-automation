@@ -1,4 +1,4 @@
-from functions import read_nodes, embed_nodes, write_process_observations, write_transition_rels, write_entities, project_process_observations_to_gds, process_community_detection, write_process_communities, close_gds_session, write_lifted_rels, infer_names_for_process_elements
+from functions import read_nodes, embed_nodes, write_process_observations, write_transition_rels, project_process_observations_to_gds, process_community_detection, write_process_communities, close_gds_session, write_lifted_rels, infer_names_for_process_elements
 from langgraph.graph import StateGraph, START, END
 from typing import List, NotRequired
 from typing_extensions import TypedDict
@@ -19,7 +19,6 @@ def process_discovery_agent(graph_db, gds, session_name):
     
     class ProcessElement(TypedDict):
         id: str
-        # name: str | None
         description: str | None
         label: str | None
     
@@ -63,16 +62,6 @@ def process_discovery_agent(graph_db, gds, session_name):
         write_transition_rels(graph_db)
         return {}
 
-    # def merge_entities_for_observations_batch(i):
-    #     def fn(state):
-    #         print(f"Merging entities for observations batch {i}")
-    #         # Did not do seeding here, so we don't need to skip first process_element like in the ingest agent
-    #         num_observations = len(state["observations"])
-    #         observations = state["observations"][i * num_observations // MAX_PROCESSES:(i + 1) * num_observations // MAX_PROCESSES]
-    #         write_entities(observations, graph_db, element_type="Observation")
-    #         return {}
-    #     return fn
-
     def project_gds_graph(state):
         print("Projecting GDS graph...")
         G = project_process_observations_to_gds(gds, session_name)
@@ -96,7 +85,6 @@ def process_discovery_agent(graph_db, gds, session_name):
 
     def get_canonical_process_elements(state):
         print("Getting process elements from Neo4j...")
-        # process_elements = read_process_elements(graph_db)
         process_elements = read_nodes(graph_db, label="ProcessElement", return_label=True)
         return {"process_elements": process_elements}
 
@@ -111,45 +99,37 @@ def process_discovery_agent(graph_db, gds, session_name):
 
     agent_graph = StateGraph(State)
 
+    # defining the agent's workflow
+    # nodes
     agent_graph.add_node("get_calls", get_calls)
-    agent_graph.add_edge(START, "get_calls")
     agent_graph.add_node("get_process_observations", get_process_observations)
-    # agent_graph.add_edge(START, "get_process_observations")
+    agent_graph.add_node("embed_process_observations", embed_process_observations)
+    agent_graph.add_node("map_transitions", map_transitions)
+    agent_graph.add_node("project_gds_graph", project_gds_graph)
+    agent_graph.add_node("discover_canonical_process_elements", discover_canonical_process_elements)
+    agent_graph.add_node("close_process_gds_session", close_process_gds_session)
+    agent_graph.add_node("lift_up_relationships", lift_up_relationships)
+    agent_graph.add_node("get_canonical_process_elements", get_canonical_process_elements)
+
+    # edges
+    agent_graph.add_edge(START, "get_calls")
+    agent_graph.add_edge("get_process_observations", "embed_process_observations")
+    agent_graph.add_edge("get_process_observations", "map_transitions")
+    agent_graph.add_edge("embed_process_observations", "project_gds_graph")
+    agent_graph.add_edge("map_transitions", "project_gds_graph")
+    agent_graph.add_edge("project_gds_graph", "discover_canonical_process_elements")
+    agent_graph.add_edge("discover_canonical_process_elements", "close_process_gds_session")
+    agent_graph.add_edge("close_process_gds_session", END)
+    agent_graph.add_edge("discover_canonical_process_elements", "lift_up_relationships")
+    agent_graph.add_edge("lift_up_relationships", "get_canonical_process_elements")
+
     # merging process observations
     for j in range(MAX_PROCESSES):
         agent_graph.add_node(f"Merge process observations {j}", merge_process_observations_batch(j))
         agent_graph.add_edge("get_calls", f"Merge process observations {j}")
         agent_graph.add_edge(f"Merge process observations {j}", "get_process_observations")
 
-    agent_graph.add_node("embed_process_observations", embed_process_observations)
-    agent_graph.add_node("map_transitions", map_transitions)
-    agent_graph.add_edge("get_process_observations", "embed_process_observations")
-    agent_graph.add_edge("get_process_observations", "map_transitions")
-
-    # merging extracted entities from process observations
-    # for j in range(MAX_PROCESSES):
-    #     agent_graph.add_node(f"Merge entities for observations batch {j}", merge_entities_for_observations_batch(j))
-    #     agent_graph.add_edge("get_process_observations", f"Merge entities for observations batch {j}")
-    #     agent_graph.add_edge(f"Merge entities for observations batch {j}", END)
-
-    agent_graph.add_node("project_gds_graph", project_gds_graph)
-    # agent_graph.add_edge(START, "project_gds_graph")
-    agent_graph.add_edge("embed_process_observations", "project_gds_graph")
-    agent_graph.add_edge("map_transitions", "project_gds_graph")
-    agent_graph.add_node("discover_canonical_process_elements", discover_canonical_process_elements)
-    agent_graph.add_edge("project_gds_graph", "discover_canonical_process_elements")
-    agent_graph.add_node("close_process_gds_session", close_process_gds_session)
-    agent_graph.add_edge("discover_canonical_process_elements", "close_process_gds_session")
-    agent_graph.add_edge("close_process_gds_session", END)
-    agent_graph.add_node("lift_up_relationships", lift_up_relationships)
-    agent_graph.add_edge("discover_canonical_process_elements", "lift_up_relationships")
-    # agent_graph.add_node("name_canonical_process_elements", name_canonical_process_elements)
-    # agent_graph.add_edge("lift_up_relationships", "name_canonical_process_elements")
-    # agent_graph.add_edge("name_canonical_process_elements", END)
-    agent_graph.add_node("get_canonical_process_elements", get_canonical_process_elements)
-    agent_graph.add_edge("lift_up_relationships", "get_canonical_process_elements")
-    # agent_graph.add_edge("name_canonical_process_elements", "get_canonical_process_elements")
-
+    # naming canonical process elements
     for j in range(MAX_PROCESSES):
         agent_graph.add_node(f"Name canonical process elements {j}", name_canonical_process_elements_batch(j))
         agent_graph.add_edge("get_canonical_process_elements", f"Name canonical process elements {j}")
