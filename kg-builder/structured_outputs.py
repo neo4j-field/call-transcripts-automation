@@ -15,9 +15,6 @@ class StateObservation(BaseModel):
 class ActionSelection(BaseModel):
     action: str = Field(None, title="A description of the action taken based on the most recent comment")
 
-class DecisionInference(BaseModel):
-    decision: str = Field(None, title="A description of the decision made based on the most recent comment")
-
 class ResolutionInference(BaseModel):
     resolution: str = Field(None, title="A description of the resolution made based on the call")
 

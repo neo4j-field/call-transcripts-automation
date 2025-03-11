@@ -57,20 +57,6 @@ The output should be a JSON object with the following format:
 }
 """
 
-decision_inference_prompt = """
-Please read the conversation and infer what decision was made based on the most recent comment.
-The most recent comment represents the decision that was made, so you should infer what the decision was based on the context of the conversation and the transition from the previous comments to the most recent one.
-Look at the conversation leading up to the most recent comment, then look at the most recent comment itself, and infer what the critical factors were in the thought process.
-The decision should be described in a few sentences, no more than 1 paragraph.
-Don't say who made the decision, but describe the likely chain of thought involved in making the decision.
-When you have determined the decision made, provide a very brief (less than or equal to 1 phrase) name for it.
-The output should be a JSON object with the following format:
-
-{
-    "decision": "Description of the decision made"
-}
-"""
-
 resolution_inference_prompt = """
 In 1-2 sentences, please describe the resolution of the call with the transcript provided.
 The resolution should describe the final state of the call, the outcome, the customer sentiment, and the favorability of the outcome to the service provider.

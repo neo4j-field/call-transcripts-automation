@@ -1,6 +1,6 @@
 from vectors import embedder, ENTITY_VECTOR_INDEX_NAME, OBSERVATION_EMBEDDING_INDEX_NAME, VECTOR_EQUIVALENCE_THRESHOLD
-from llms import entity_extractor_llm, state_observation_llm, action_selection_llm, decision_inference_llm, group_description_llm, resolution_inference_llm
-from prompts import entity_extractor_prompt, state_observation_prompt, action_selection_prompt, decision_inference_prompt, group_description_prompt, resolution_inference_prompt
+from llms import entity_extractor_llm, state_observation_llm, action_selection_llm, group_description_llm, resolution_inference_llm
+from prompts import entity_extractor_prompt, state_observation_prompt, action_selection_prompt, group_description_prompt, resolution_inference_prompt
 from gds import NEO4J_DATABASE, IS_AURA
 
 ###########################################
