@@ -1,6 +1,12 @@
-import OpenAI from "openai";
+import OpenAI, { AzureOpenAI } from "openai";
 
-const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+// const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+const openai = new AzureOpenAI({
+  endpoint: process.env.AZURE_OPENAI_ENDPOINT,
+  apiKey: process.env.AZURE_OPENAI_API_KEY,
+  apiVersion: "2025-01-01",
+  deployment: "gpt-4o",
+});
 
 const callOpenAI = async ({
   messages,
