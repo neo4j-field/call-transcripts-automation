@@ -1,9 +1,9 @@
 # Wait 60 seconds before connecting using these details, or login to https://console.neo4j.io to validate the Aura Instance is available
 NEO4J_URI=neo4j+s://xxxxxxxx.databases.neo4j.io
-NEO4J_USERNAME=neo4j
+NEO4J_USERNAME=student
 NEO4J_PASSWORD=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 AURA_INSTANCEID=xxxxxxxx
-AURA_INSTANCENAME=atl-node-network-test
+AURA_INSTANCENAME=atl-node-network-xxxxx
 
 AZURE_OPENAI_API_KEY='xxxxxxxxxxxxx....'
 AZURE_OPENAI_ENDPOINT=https://xxxxxxxxxxxxxxxxxxxxxxx.openai.azure.com
