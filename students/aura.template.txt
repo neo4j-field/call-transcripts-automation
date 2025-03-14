@@ -10,3 +10,4 @@ AZURE_OPENAI_ENDPOINT=https://xxxxxxxxxxxxxxxxxxxxxxx.openai.azure.com
 
 AURA_API_CLIENT_ID=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 AURA_API_CLIENT_SECRET=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+AURA_API_TENANT_ID=d8bc257e-9c80-5718-9c4a-bd3568b901de
