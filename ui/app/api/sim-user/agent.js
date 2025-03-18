@@ -1,4 +1,4 @@
-import { ChatOpenAI } from "@langchain/openai";
+import { AzureChatOpenAI } from "@langchain/openai";
 import { Annotation, StateGraph, START, END } from "@langchain/langgraph";
 import { ChatPromptTemplate } from "@langchain/core/prompts";
 import { z } from "zod";
@@ -195,9 +195,10 @@ const Agent = (commentId) => {
       ["placeholder", "{messages}"],
     ]);
 
-    const llm = new ChatOpenAI({
-      model: "gpt-4o",
+    const llm = new AzureChatOpenAI({
+      azureOpenAIApiDeploymentName: "gpt-4o",
       temperature: 0.8,
+      streaming: true,
     });
 
     const chain = prompt.pipe(llm);
