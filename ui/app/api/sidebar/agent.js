@@ -1,4 +1,4 @@
-import { OpenAIEmbeddings, ChatOpenAI } from "@langchain/openai";
+import { AzureOpenAIEmbeddings, AzureChatOpenAI } from "@langchain/openai";
 import { Annotation, StateGraph, START, END } from "@langchain/langgraph";
 import { ChatPromptTemplate } from "@langchain/core/prompts";
 import { getNeo4jSession } from "@/lib/neo4j";
@@ -21,8 +21,7 @@ const Agent = (comments) => {
   });
 
   const embedComment = async (state) => {
-    const embedder = new OpenAIEmbeddings({
-      model: "text-embedding-3-small",
+    const embedder = new AzureOpenAIEmbeddings({
       dimensions: 128,
     });
     const embedding = await embedder.embedDocuments([
@@ -90,8 +89,8 @@ const Agent = (comments) => {
       ["placeholder", "{messages}"],
     ]);
 
-    const llm = new ChatOpenAI({
-      model: "gpt-4o",
+    const llm = new AzureChatOpenAI({
+      azureOpenAIApiDeploymentName: "gpt-4o",
       temperature: 0.8,
       streaming: true,
     });
