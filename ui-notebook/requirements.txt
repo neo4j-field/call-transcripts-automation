@@ -1,0 +1,7 @@
+gradio>=4.0
+neo4j>=5.28
+langchain-openai>=0.4
+langchain-core>=0.3
+openai>=1.60
+pyvis>=0.3
+python-dotenv>=1.0
