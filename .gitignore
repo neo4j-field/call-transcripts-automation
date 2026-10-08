@@ -3,6 +3,9 @@
 .claude
 CLAUDE.md
 
+.env
+*.env
+aura*.txt
 aura.txt
 
 # ui
